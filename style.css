@@ -19,6 +19,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .header_menu {
   padding: 3px 5px;
 }
@@ -28,6 +29,7 @@
   font-weight: 700;
   line-height: 20px;
 }
+
 .header_logo a {
   text-decoration: none;
 }
@@ -36,6 +38,7 @@
   width: 24px;
   height: auto;
 }
+
 .headline {
   padding: 25px;
   background-size: 100% 83%;
@@ -43,7 +46,7 @@
   background-image: url(images/header-illsutration-mobile.png);
   position: relative;
   background-attachment: fixed;
-  background-position: 0px 53px;
+  background-position: 0 53px;
 }
 
 .headline_title {
@@ -74,6 +77,7 @@
   padding: 50px 0;
   font-size: 20px;
 }
+
 .addline_social {
   display: flex;
   justify-content: center;
@@ -93,6 +97,7 @@
   display: inline-block;
   padding: 10px;
 }
+
 ul {
   list-style: none;
   padding: 0;
@@ -102,6 +107,7 @@ ul {
   flex-wrap: wrap;
   gap: 10px;
 }
+
 h1 {
   text-align: center;
   font-weight: 700;
@@ -110,6 +116,7 @@ h1 {
   margin-bottom: 5%;
   margin-top: 3%;
 }
+
 p {
   font-size: 20px;
   color: #42526e;
