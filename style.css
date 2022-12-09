@@ -100,10 +100,13 @@ ul {
   list-style: none;
   padding: 0;
   width: 100%;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 5%;
   flex-wrap: wrap;
-  gap: 10px;
+}
+
+li {
+  margin: 0;
 }
 
 h1 {
@@ -112,7 +115,7 @@ h1 {
   font-size: 3rem;
   color: #172b4d;
   margin-bottom: 5%;
-  margin-top: 3%;
+  margin-top: 50px;
 }
 
 p {
@@ -140,7 +143,8 @@ p {
 
 h2 {
   text-align: center;
-  color: #172b4d;
+  color: #344534;
+  margin-top: 5%;
 }
 
 .logo-img {
@@ -154,10 +158,13 @@ h2 {
 }
 
 .btn2 {
-  width: 91px;
   height: 30px;
   border: none;
-  border-radius: 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  margin: 5px 5px;
+  padding: 10px 17px;
   color: #36b37e;
   background-color: #fff;
 }
@@ -169,7 +176,7 @@ h2 {
   color: #172b4d;
   margin-right: 10px;
   margin-left: 10px;
-  margin-top: 5%;
+  margin-top: 60px;
   margin-bottom: 5%;
 }
 
@@ -178,11 +185,19 @@ form {
   flex-direction: column;
   margin-right: 10px;
   margin-left: 10px;
+  align-items: center;
 }
 
 form input {
   margin-bottom: 5%;
   border: 1px solid gray;
+  width: 100%;
+  padding: 5px 5px;
+}
+
+textarea {
+  width: 100%;
+  height: auto;
 }
 
 .hover:hover {
@@ -210,10 +225,16 @@ form input {
   background-image: url(images/illustration-contact-form.svg);
   background-repeat: no-repeat;
   background-color: transparent;
+  background-size: cover;
   width: 92.14px;
   height: 131.71px;
   position: absolute;
-  left: 91.35%;
+  right: 0;
+  bottom: -46px;
+}
+
+.enginn {
+  position: relative;
 }
 
 #about-me {
@@ -227,8 +248,8 @@ form input {
   width: 80px;
   height: 80px;
   position: absolute;
-  left: 85%;
-  bottom: 80%;
+  right: 0;
+  top: 0;
 }
 
 .img4 {
@@ -238,12 +259,13 @@ form input {
   width: 80px;
   height: 80px;
   position: absolute;
-  right: 85%;
+  left: 0;
+  bottom: 0;
 }
 
 .batu {
   text-align: center;
-  font-size: 3rem;
+  font-size: 40px;
   color: #172b4d;
   font-weight: 500;
 }
@@ -251,6 +273,12 @@ form input {
 .imgplacesholder {
   height: 250px;
   background-color: #ebf0ee;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .engin {
@@ -264,29 +292,37 @@ form input {
   display: flex;
 }
 
-.irem {
-  padding: 12px 8px 12px 8px;
+.eylemm {
+  display: flex;
+  justify-content: center;
 }
 
-.btn {
-  width: 79px;
-  height: 30px;
-  border: none;
-  border-radius: 4px;
+.irem {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03cm;
   color: #3a4a42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .btn1 {
-  width: 91px;
   height: 30px;
   border: none;
   border-radius: 4px;
   color: #3a4a42;
+  font-weight: 600;
+  font-size: 12px;
+  margin: auto;
+  padding: 10px 17px;
 }
 
 .btngreen {
   align-items: center;
-  margin-left: 38%;
   width: 150px;
   height: 50px;
   font-weight: 500;
@@ -303,7 +339,7 @@ hr {
   width: 9%;
   height: 5px;
   margin-left: 45%;
-  margin-bottom: 5%;
+  margin-bottom: 62px;
   margin-top: 3%;
   background-color: #36b37e;
   border-radius: 3px;
