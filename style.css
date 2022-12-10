@@ -173,10 +173,10 @@ h2 {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #42526e;
-  margin-right: 10px;
-  margin-left: 10px;
+  font-weight: 700;
+  color: #172b4d;
   margin-top: 60px;
+  padding: 0 10%;
   margin-bottom: 5%;
 }
 
@@ -190,18 +190,27 @@ form {
 
 form input {
   margin-bottom: 5%;
-  border: 1px solid gray;
+  border: 1px solid #d0d9d4;
   width: 100%;
-  padding: 5px 5px;
+  padding: 15px 15px;
+  border-radius: 4px;
 }
 
 textarea {
   width: 100%;
   height: auto;
+  padding: 25px 15px;
+  border: 1px solid #60c095;
+  border-radius: 4px;
 }
 
-.hover:hover {
-  border: 3px solid #36b37e;
+textarea:hover {
+  border: 1px solid #36b37e;
+}
+
+.btngreen:hover {
+  border-radius: 4px;
+  background-color: #36b37e;
 }
 
 .link {
@@ -209,7 +218,7 @@ textarea {
   text-align: center;
   font-size: 24px;
   color: #42526e;
-  margin-left: 30%;
+  display: block;
 }
 
 .social_links1 {
@@ -245,11 +254,11 @@ textarea {
   background-image: url(images/Mask\ Group.svg);
   background-repeat: no-repeat;
   background-color: transparent;
-  width: 100px;
+  width: 60px;
   height: 159px;
   position: absolute;
-  right: -37px;
-  top: 0;
+  right: 0;
+  bottom: 65%;
 }
 
 .img4 {
@@ -273,15 +282,10 @@ textarea {
 .imgplacesholder {
   height: 250px;
   background-color: #ebf0ee;
-  margin-right: 25px;
-  margin-left: 25px;
 }
 
 .container {
-  border: 1px solid gray;
   display: grid;
-  padding: 16px;
-  margin: 10px;
   flex-direction: column;
   border-radius: 10px;
   place-items: center;
@@ -289,14 +293,15 @@ textarea {
 
 .main-container {
   margin: 16px;
-  padding: 16px;
   border: 1px solid gray;
-  border-radius: 23px;
+  border-radius: 8px;
 }
 
 .engin {
   text-align: center;
   font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
   margin-top: 5%;
   color: #3a4a42;
 }
@@ -332,6 +337,8 @@ textarea {
   font-size: 12px;
   margin: auto;
   padding: 10px 17px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
 }
 
 .btngreen {
@@ -356,4 +363,13 @@ hr {
   margin-top: 3%;
   background-color: #36b37e;
   border-radius: 3px;
+}
+
+.footer-hr {
+  width: 40%;
+  background-color: #000;
+  margin-top: 336px;
+  margin-bottom: 3px;
+  margin-left: 30%;
+  /* margin-right: 0; */
 }
