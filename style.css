@@ -173,7 +173,7 @@ h2 {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #172b4d;
+  color: #42526e;
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 60px;
@@ -245,10 +245,10 @@ textarea {
   background-image: url(images/Mask\ Group.svg);
   background-repeat: no-repeat;
   background-color: transparent;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 159px;
   position: absolute;
-  right: 0;
+  right: -37px;
   top: 0;
 }
 
@@ -273,12 +273,25 @@ textarea {
 .imgplacesholder {
   height: 250px;
   background-color: #ebf0ee;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .container {
-  display: flex;
+  border: 1px solid gray;
+  display: grid;
+  padding: 16px;
+  margin: 10px;
   flex-direction: column;
-  align-items: center;
+  border-radius: 10px;
+  place-items: center;
+}
+
+.main-container {
+  margin: 16px;
+  padding: 16px;
+  border: 1px solid gray;
+  border-radius: 23px;
 }
 
 .engin {
