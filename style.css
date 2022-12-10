@@ -208,11 +208,6 @@ textarea:hover {
   border: 1px solid #36b37e;
 }
 
-.btngreen:hover {
-  border-radius: 4px;
-  background-color: #36b37e;
-}
-
 .link {
   text-decoration: none;
   text-align: center;
@@ -355,6 +350,11 @@ textarea:hover {
   margin-bottom: 5%;
 }
 
+.btngreen:hover {
+  border-radius: 4px;
+  background-color: #36b37e;
+}
+
 hr {
   width: 9%;
   height: 5px;
@@ -371,5 +371,4 @@ hr {
   margin-top: 336px;
   margin-bottom: 3px;
   margin-left: 30%;
-  /* margin-right: 0; */
 }
