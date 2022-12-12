@@ -302,7 +302,7 @@ textarea:hover {
 }
 
 .eylem {
-  /* display: flex; */
+  /*  display: flex; */
   float: left;
 }
 
@@ -322,7 +322,6 @@ textarea:hover {
   flex: none;
   order: 0;
   flex-grow: 0;
-  float: left;
 }
 
 .btn1 {
