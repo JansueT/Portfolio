@@ -322,6 +322,8 @@ textarea:hover {
   flex: none;
   order: 0;
   flex-grow: 0;
+  float:left;
+  padding: 4px;
 }
 
 .btn1 {
