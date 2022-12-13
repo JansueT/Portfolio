@@ -239,7 +239,7 @@ textarea:hover {
 
 .enginn {
   position: relative;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
@@ -324,7 +324,7 @@ textarea:hover {
   flex: none;
   order: 0;
   flex-grow: 0;
-  float:left;
+  float: left;
   padding: 4px;
 }
 
