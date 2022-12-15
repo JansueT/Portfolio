@@ -1,34 +1,10 @@
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
+Portfolio to Microverse course
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Modify this file to match your project and remove sections that don't apply.
+# Portfolio Microverse
+# Portfolio: add a contact form and finish the mobile version
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
+  
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -57,9 +33,17 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Portfolio<a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+## Learning objectives
+- I will create forms with HTML5 validations.
+- I will show the importance of UX.
+- I will do how to parse a Figma design to create a UI.
 
-**[Portfolio]** is a "Portfolio mobile setup project" repository. No complex coding is required for this exercise. My goal here is to master all of the tools and best practices I learned about in previous steps. I will be using them in all Microverse projects and most likely in my future job as well.
+## Description
+
+For the third milestone of my portfolio website, I will:
+
+- Add a contact form to my portfolio and the portfolio of my coding partner.
+- Make sure that I guide my users' experience in a way that helps them fill in the form without frustration.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -79,6 +63,20 @@ After you're finished please remove all the comments and instructions!
 </details>
 
 <details>
+  <summary>HTML5</summary>
+  <ul>
+    <li><a href="#">HTML5</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>CSS3</summary>
+  <ul>
+    <li><a href="#">CSS3</a></li>
+  </ul>
+</details>
+
+<details>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
@@ -93,6 +91,7 @@ After you're finished please remove all the comments and instructions!
 - **[css]**
 
 - **colored header**
+- **milestone**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +139,10 @@ No installation needed
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/JansueT)
-
+- instagram: [@cansuetas](https://instagram.com/cansuetas)
+- twitter: [@cansu8tas](https://twitter.com/cansu8tas)
+- linkedIn: [@LinkedIn](https://www.linkedin.com/in/cansu-tas-467844251/)
+         
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
