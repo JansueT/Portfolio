@@ -239,6 +239,8 @@ textarea:hover {
 
 .enginn {
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 #about-me {
@@ -302,7 +304,8 @@ textarea:hover {
 }
 
 .eylem {
-  display: flex;
+  /*  display: flex; */
+  float: left;
 }
 
 .eylemm {
@@ -321,6 +324,8 @@ textarea:hover {
   flex: none;
   order: 0;
   flex-grow: 0;
+  float: left;
+  padding: 4px;
 }
 
 .btn1 {
