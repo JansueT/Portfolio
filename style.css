@@ -399,3 +399,8 @@ hr {
   color: #42526e;
   cursor: pointer;
 }
+
+.black {
+  text-decoration: none;
+  color: #344563;
+}
