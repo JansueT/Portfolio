@@ -91,7 +91,6 @@
   flex: none;
   order: 2;
   flex-grow: 0;
-  /*padding: 20px;*/
   justify-content: center;
 }
 
@@ -400,9 +399,4 @@ hr {
   font-weight: bold;
   color: #42526e;
   cursor: pointer;
-}
-
-.black {
-  text-decoration: none;
-  color: #344563;
 }
