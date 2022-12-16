@@ -57,18 +57,15 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Portfolio<a name="about-project"></a>
 
+
 ## Learning objectives
 
-- I will create forms with HTML5 validations.
-- I will show the importance of UX.
-- I will do how to parse a Figma design to create a UI.
+- I study how to create UIs adaptable to different screen sizes using media queries.
+- I study how to parse a Figma design to create a UI.
 
 ## Description
 
-For the third milestone of my portfolio website, I will:
-
-- Add a contact form to my portfolio and the portfolio of my coding partner.
-- Make sure that I guide my users' experience in a way that helps them fill in the form without frustration.
+- I used media queries to make sure that my website displays correctly on desktop screens.
 
 ## 🛠 Built With <a name="built-with"></a>
 
