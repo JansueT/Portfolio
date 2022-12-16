@@ -22,12 +22,14 @@
 
 .header_menu {
   padding: 3px 5px;
+  display: none;
 }
 
 .header_logo {
   font-size: 22px;
   font-weight: 700;
   line-height: 20px;
+  display: none;
 }
 
 .header_logo a {
@@ -376,4 +378,24 @@ hr {
   margin-top: 336px;
   margin-bottom: 3px;
   margin-left: 30%;
+}
+
+.header-nav-desktop-version {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  padding-top: 1em;
+  margin: 0;
+}
+
+.header-nav-desktop-version li {
+  list-style: none;
+  padding: 0;
+  margin: 1em;
+  font-size: 14px;
+  font-weight: bold;
+  color: #42526e;
+  cursor: pointer;
 }
