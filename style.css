@@ -380,7 +380,7 @@ hr {
   margin-left: 30%;
 }
 
-.header-nav-desktop-version {
+.header_nav_desktop_version {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -390,7 +390,7 @@ hr {
   margin: 0;
 }
 
-.header-nav-desktop-version li {
+.header_nav_desktop_version li {
   list-style: none;
   padding: 0;
   margin: 1em;
