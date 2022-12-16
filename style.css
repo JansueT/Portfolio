@@ -86,11 +86,13 @@
 
 .social_links {
   display: flex;
+  flex-direction: row-reverse;
   list-style: none;
   flex: none;
   order: 2;
   flex-grow: 0;
-  padding: 20px;
+  /*padding: 20px;*/
+  justify-content: center;
 }
 
 .social_link a {
