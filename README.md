@@ -1,34 +1,3 @@
-Portfolio to Microverse course
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -59,16 +28,12 @@ After you're finished please remove all the comments and instructions!
 
 ## Learning objectives
 
-- I will create forms with HTML5 validations.
-- I will show the importance of UX.
-- I will do how to parse a Figma design to create a UI.
+- I study how to create UIs adaptable to different screen sizes using media queries.
+- I study how to parse a Figma design to create a UI.
 
 ## Description
 
-For the third milestone of my portfolio website, I will:
-
-- Add a contact form to my portfolio and the portfolio of my coding partner.
-- Make sure that I guide my users' experience in a way that helps them fill in the form without frustration.
+- I used media queries to make sure that my website displays correctly on desktop screens.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -77,13 +42,6 @@ For the third milestone of my portfolio website, I will:
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">css</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
@@ -98,13 +56,6 @@ For the third milestone of my portfolio website, I will:
   <summary>CSS3</summary>
   <ul>
     <li><a href="#">CSS3</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
@@ -200,7 +151,7 @@ If you like this project...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
