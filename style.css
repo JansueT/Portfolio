@@ -195,6 +195,7 @@ h1 {
 .cards_container {
   display: grid;
   grid-template-columns: auto auto auto;
+  place-content: center;
 }
 
 h2 {
