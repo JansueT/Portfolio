@@ -178,6 +178,20 @@ h1 {
   text-align: center;
 }
 
+.about_card {
+  background-color: #ebf0ee;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-around;
+  align-content: center;
+  border-radius: 8px;
+  display: grid;
+  border: 1px solid gray;
+  width: 370px;
+  height: 350px;
+  margin: 16px;
+}
+
 .card {
   background-color: #ebf0ee;
   flex-direction: column;
@@ -292,15 +306,29 @@ textarea:hover {
 }
 
 .img2 {
-  background-image: url(images/illustration-contact-form.svg);
-  background-repeat: no-repeat;
-  background-color: transparent;
-  background-size: cover;
-  width: 92.14px;
-  height: 131.71px;
+  width: 150px;
+  height: 350px;
   position: absolute;
   right: 0;
-  bottom: -46px;
+  top: 60px;
+  z-index: -1;
+}
+
+.img5 {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  top: 250px;
+  z-index: -1;
+}
+
+.img6 {
+  width: 100px;
+  height: 150px;
+  position: absolute;
+  top: 300px;
+  z-index: -1;
+  left: 200px;
 }
 
 .enginn {
@@ -312,7 +340,8 @@ textarea:hover {
 }
 
 .form_container {
-  width: 55%;
+  width: 44%;
+  margin: 35px 0 0 0;
 }
 
 .aboutme_container {
@@ -375,6 +404,8 @@ textarea:hover {
   flex-direction: column;
   border-radius: 10px;
   place-items: center;
+  background: #fff;
+  padding: 0 5px;
 }
 
 .engin {
