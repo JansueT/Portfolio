@@ -63,19 +63,13 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[html]**
-- **[css]**
-
-- **colored header**
-- **milestone**
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name ="live-demo"></a>
 
-> [Live Demo](https://jansuet.github.io/Portfolio/)
+> [Live Demo link](https://jansuet.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
