@@ -310,7 +310,7 @@ textarea:hover {
   height: 350px;
   position: absolute;
   right: 0;
-  top: 60px;
+  bottom: -60px;
   z-index: -1;
 }
 
@@ -518,6 +518,10 @@ hr {
     width: 10%;
   }
 
+  .btn_container {
+    width: auto;
+  }
+
   .header_menu {
     display: flex;
   }
@@ -530,7 +534,37 @@ hr {
     background-image: url(images/header-illsutration-mobile.png);
   }
 
+  .cards_container {
+    grid-template-columns: auto;
+  }
+
   .enginn {
     flex-direction: column;
+  }
+
+  .last-p_container,
+  .form_container {
+    width: auto;
+  }
+
+  .img2 {
+    bottom: -120px;
+  }
+
+  .img5,
+  .img6 {
+    display: none;
+  }
+
+  .img3 {
+    width: 100px;
+    height: 120px;
+    right: -20px;
+  }
+
+  .img4 {
+    width: 120px;
+    height: 100px;
+    left: -20px;
   }
 }
