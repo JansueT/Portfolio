@@ -532,6 +532,8 @@ hr {
 
   .headline {
     background-image: url(images/header-illsutration-mobile.png);
+    background-size: contain;
+    padding-top: 3%;
   }
 
   .cards_container {
@@ -566,5 +568,29 @@ hr {
     width: 120px;
     height: 100px;
     left: -20px;
+  }
+
+  .cansu_menu {
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    margin-top: -250px;
+    padding-bottom: 100px;
+  }
+
+  .cansu_menu > li {
+    font-size: 2rem;
+  }
+
+  .hide_menu {
+    display: none;
+  }
+
+  .close_menu_icon {
+    position: fixed;
+    top: 34px;
+    right: 20px;
+    height: 28px;
+    weight: 23px;
   }
 }
