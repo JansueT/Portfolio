@@ -8,7 +8,6 @@ menuIconElement.addEventListener("click", () => {
   menuIconElement.classList.add("hide_menu");
   menuElement.classList.add("cansu_menu");
   document.body.style.overflowY = "hidden";
-  // menuIconElement.classList.toggle("hide_menu");
   closeMenuElement.classList.remove("hide_menu");
   logo.classList.add("hide_menu");
 });
@@ -17,7 +16,6 @@ closeMenuElement.addEventListener("click", () => {
   menuIconElement.classList.remove("hide_menu");
   document.body.style.overflowY = "scroll";
   closeMenuElement.classList.add("hide_menu");
-  // menuIconElement.classList.toggle("hide_menu");
   menuElement.classList.remove("cansu_menu");
   logo.classList.remove("hide_menu");
 });
