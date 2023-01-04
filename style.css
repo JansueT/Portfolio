@@ -589,8 +589,7 @@ hr {
   .close_menu_icon {
     position: fixed;
     top: 34px;
-    right: 20px;
+    right: 40px;
     height: 28px;
-    weight: 23px;
   }
 }
