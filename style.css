@@ -509,6 +509,10 @@ hr {
   font-weight: bold;
 }
 
+.close_menu_icon {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .header_nav {
     justify-content: space-between;
@@ -532,6 +536,8 @@ hr {
 
   .headline {
     background-image: url(images/header-illsutration-mobile.png);
+    background-size: contain;
+    padding-top: 3%;
   }
 
   .cards_container {
@@ -566,5 +572,29 @@ hr {
     width: 120px;
     height: 100px;
     left: -20px;
+  }
+
+  .cansu_menu {
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    margin-top: -250px;
+    padding-bottom: 100px;
+  }
+
+  .cansu_menu > li {
+    font-size: 2rem;
+  }
+
+  .hide_menu {
+    display: none;
+  }
+
+  .close_menu_icon {
+    position: fixed;
+    top: 34px;
+    right: 40px;
+    height: 28px;
+    display: block;
   }
 }

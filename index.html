@@ -20,18 +20,21 @@
             </div>
 
             <div class="items_container">
-            <ul class="header_nav_desktop_version">
+            <ul class="header_nav_desktop_version" id="menu">
                 <li>
-                    <a class="nav_items" href="#">Portfolio</a>
+                    <img class="close_menu_icon" src="images/x.png" id="close_menu_icon"  alt="close menu icon"/>
                 </li>
                 <li>
-                    <a class="nav_items" href="#">About</a>
+                    <a class="nav_items" href="#Portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a class="nav_items" href="#">Contact</a>
+                    <a class="nav_items" href="#about-me">About</a>
+                </li>
+                <li>
+                    <a class="nav_items" href="#contact">Contact</a>
                 </li>
             </ul>
-            <div class="header_menu">
+            <div class="header_menu" id="menu_icon">
                 <img class="menu_icon" src="images/Union.png" alt="menu" />
             </div>
             </div>
@@ -39,7 +42,7 @@
         
         </nav>
     </header>
-    <section class="headline">
+    <section class="headline" id="Portfolio">
         <h1 class="headline_title">
             <span class="sub-headline_title_1">Hey there. I’m Cansu</span>
             <span class="sub-headline_title">I'm a software developer</span>
@@ -370,7 +373,7 @@
         </div>
     </section>
 
-    <section class="enginn">
+    <section class="enginn" id="contact">
         <div class="last-p_container">
         <p class="last-p">
             I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -423,6 +426,7 @@
         </ul>
     </div>
     <hr class="footer-hr" />
+    <script src="index.js"></script>
 </body>
 
 </html>

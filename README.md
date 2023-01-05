@@ -24,16 +24,18 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio<a name="about-project"></a>
+# 📖 Portfolio<a name="Portfolio - mobile menu"></a>
 
 ## Learning objectives
 
-- I study how to create UIs adaptable to different screen sizes using media queries.
-- I study how to parse a Figma design to create a UI.
+- I use basic JavaScript syntax.
+- I use JavaScript to manipulate DOM elements.
+- I use JavaScript events.
+
 
 ## Description
 
-- I used media queries to make sure that my website displays correctly on desktop screens.
+For this milestone of my portfolio website, I implement the mobile menu using my recently acquired JavaScript knowledge.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,19 +48,25 @@
 </details>
 
 <details>
-  <summary>HTML5</summary>
+  <summary>HTML</summary>
   <ul>
-    <li><a href="#">HTML5</a></li>
+    <li><a href="#">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>CSS3</summary>
+  <summary>CSS</summary>
   <ul>
-    <li><a href="#">CSS3</a></li>
+    <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
+<details>
+  <summary>JavaScript</summary>
+  <ul>
+    <li><a href="#">JS</a></li>
+  </ul>
+</details>
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -102,16 +110,26 @@ No installation needed
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors">Jansue</a>
+## 👥 Authors <a name="authors"></a>
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **JansueT**
 
 - GitHub: [@githubhandle](https://github.com/JansueT)
 - instagram: [@cansuetas](https://instagram.com/cansuetas)
 - twitter: [@cansu8tas](https://twitter.com/cansu8tas)
 - linkedIn: [@LinkedIn](https://www.linkedin.com/in/cansu-tas-467844251/)
+
+<!-- COLLABRATIONS-->
+
+## 👥 Collabrations <a name="collabrationns"></a>
+
+👤 **Kodjo-Sarso Tetteh**
+
+- GitHub: [@githubhandle](https://github.com/reggeddit)
+- Twitter: [@twitterhandle](https://twitter.com/tksarso)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <!-- CONTRIBUTING -->
 
