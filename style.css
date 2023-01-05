@@ -509,6 +509,10 @@ hr {
   font-weight: bold;
 }
 
+.close_menu_icon {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .header_nav {
     justify-content: space-between;
@@ -591,5 +595,6 @@ hr {
     top: 34px;
     right: 40px;
     height: 28px;
+    display: block;
   }
 }
