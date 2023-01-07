@@ -28,14 +28,13 @@
 
 ## Learning objectives
 
-- I use basic JavaScript syntax.
-- I use JavaScript to manipulate DOM elements.
-- I use JavaScript events.
+- I process user input according to business rules.
+- I use client-side validation to catch and throw errors in the UI.
 
 
 ## Description
 
-For this milestone of my portfolio website, I implement the mobile menu using my recently acquired JavaScript knowledge.
+For this milestone of my portfolio website, I implement a client-side validation of the data in the contact form before submission.
 
 ## 🛠 Built With <a name="built-with"></a>
 
