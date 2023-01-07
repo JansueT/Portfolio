@@ -550,12 +550,12 @@ hr {
   margin-block: 15px;
 }
 
-/* .popup_p {
+.popup_p {
   color: #344563;
   font-size: 18px;
 }
 
-.popup_buttoms {
+/*.popup_buttoms {
   display: flex;
   gap: 30px;
 }
