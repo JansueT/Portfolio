@@ -200,7 +200,11 @@ const popupDetails = (projectId) => {
   if (projectId == null) return;
   let check = projects.filter((elem) => elem.id === projectId);
   check = check.shift();
+<<<<<<< HEAD
   const popupWindow = `<div id='popup_window' class='popup_window' >
+=======
+  const popup_window = `<div id='popup_window' class='popup_window' >
+>>>>>>> 103cf2b2661307c280df3ed529646130ed3491ff
     <div class='container'>
         <img class='popup_x' id='close_popup' onclick='closeWindow()' src='/images/x.png' alt='close-icon'>
         <img class='popup_img'  src='/images/Snapshoot Portfolio.png' alt='Snapshoot' />
