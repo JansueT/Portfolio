@@ -248,10 +248,8 @@ const bodyElement = document.getElementById('body');
 
 setTimeout(() => {
   if (document.getElementById('popup_window') === null) {
-    alert('condition yes');
     bodyElement.style.overflow = 'auto';
   } else {
-    alert('condition no');
     bodyElement.style.overflow = 'hidden';
   }
 }, 1);
