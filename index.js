@@ -144,35 +144,35 @@ const projects = [
 
 const cards = () => {
   const card = projects.map(
-    (item) => ` <div class="card">
-            <div class="imgplacesholder"></div>
-            <div class="container">
-                <h2 class="popup_engin engin" >
+    (item) => ` <div class='card'>
+            <div class='imgplacesholder'></div>
+            <div class='container'>
+                <h2 class='popup_engin engin' >
                    ${item.title}
                 </h2>
-                <ul class="eylem">
-                    <li class="irem">
-                        <button type="button" class="btn1">
+                <ul class='eylem'>
+                    <li class='irem'>
+                        <button type='button' class='btn1'>
                         ${item.mechanizations.mech0}
                         </button>
                     </li>
-                    <li class="irem">
-                        <button type="button" class="btn1">
+                    <li class='irem'>
+                        <button type='button' class='btn1'>
                         ${item.mechanizations.mech1}
                             </button>
                         </li>
-                        <li class="irem">
-                            <button type="button" class="btn1">
+                        <li class='irem'>
+                            <button type='button' class='btn1'>
                             ${item.mechanizations.mech2}
                             </button>
                         </li>
-                        <li class="irem">
-                            <button type="button" class="btn1">
+                        <li class='irem'>
+                            <button type='button' class='btn1'>
                             ${item.mechanizations.mech3}
                             </button>
                         </li>
                     </ul>
-                <button type="button" onclick="popupDetails(${item.id})"  class="btngreen">
+                <button type='button' onclick='popupDetails(${item.id})'  class='btngreen'>
                  See Project
                 </button>
               </div>  
@@ -198,42 +198,42 @@ const popupDetails = (projectId) => {
   if (projectId == null) return;
   let check = projects.filter((elem) => elem.id === projectId);
   check = check.shift();
-  const popup_window = `<div id="popup_window" class="popup_window" >
-    <div class="container">
-        <img class="popup_x" id="close_popup" onclick="closeWindow()" src="/images/x.png" alt="close-icon">
-        <img class="popup_img"  src="/images/Snapshoot Portfolio.png" alt="Snapshoot" />
-        <h2 class="popup_engin engin">
+  const popup_window = `<div id='popup_window' class='popup_window' >
+    <div class='container'>
+        <img class='popup_x' id='close_popup' onclick='closeWindow()' src='/images/x.png' alt='close-icon'>
+        <img class='popup_img'  src='/images/Snapshoot Portfolio.png' alt='Snapshoot' />
+        <h2 class='popup_engin engin'>
             ${check1.title1}
         </h2>
-        <ul class="eylem">
-            <li class="irem">
-                <button type="button" class="btn1">
+        <ul class='eylem'>
+            <li class='irem'>
+                <button type='button' class='btn1'>
                 ${check.mechanizations.mech0}
                 </button>
             </li>
-            <li class="irem">
-                <button type="button" class="btn1">
+            <li class='irem'>
+                <button type='button' class='btn1'>
                 ${check.mechanizations.mech1}
                     </button>
                 </li>
-                <li class="irem">
-                    <button type="button" class="btn1">
+                <li class='irem'>
+                    <button type='button' class='btn1'>
                     ${check.mechanizations.mech2}
                     </button>
                 </li>
-                <li class="irem">
-                            <button type="button" class="btn1">
+                <li class='irem'>
+                            <button type='button' class='btn1'>
                             ${check.mechanizations.mech3}
                             </button>
                         </li>
             </ul>
-            <p class="popup_p">${check.explantion}</p>
-        <div class="popup_buttoms">
-            <a href="#" target="_blank" class="btngreen1">
-            <span>See Live</span> <img src="./images/see live icon.png" alt="see-live-icon">
+            <p class='popup_p'>${check.explantion}</p>
+        <div class='popup_buttoms'>
+            <a href='#' target='_blank' class='btngreen1'>
+            <span>See Live</span> <img src='./images/see live icon.png' alt='see-live-icon'>
             </a>
-            <a href="#" target="_blank"  class="btngreen1">
-            See Source <img src="./images/github.png" alt="github-icon">
+            <a href='#' target='_blank'  class='btngreen1'>
+            See Source <img src='./images/github.png' alt='github-icon'>
             </a>
         </div>
     </div>
