@@ -531,13 +531,13 @@ hr {
   display: none;
 }
 
-/* #popup_window_container {
+#popup_window_container {
   background-color: #c1c7d0;
   box-sizing: content-box;
   width: 100vw;
 }
 
-.popup_window {
+/* .popup_window {
   display: inline-block;
   width: 85%;
   position: fixed;
