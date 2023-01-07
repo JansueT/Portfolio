@@ -200,11 +200,7 @@ const popupDetails = (projectId) => {
   if (projectId == null) return;
   let check = projects.filter((elem) => elem.id === projectId);
   check = check.shift();
-<<<<<<< HEAD
   const popupWindow = `<div id='popup_window' class='popup_window' >
-=======
-  const popup_window = `<div id='popup_window' class='popup_window' >
->>>>>>> 103cf2b2661307c280df3ed529646130ed3491ff
     <div class='container'>
         <img class='popup_x' id='close_popup' onclick='closeWindow()' src='/images/x.png' alt='close-icon'>
         <img class='popup_img'  src='/images/Snapshoot Portfolio.png' alt='Snapshoot' />
@@ -248,11 +244,14 @@ const popupDetails = (projectId) => {
   popupContainer.style.padding = '25px 15px';
 };
 
-// const bodyElement = document.getElementById('body');
-// if (document.getElementById('popup_window') === null) {
-//   alert('condition yes');
-//   bodyElement.style.overflow = 'auto';
-// } else {
-//   alert('condition no');
-//   bodyElement.style.overflow = 'hidden';
-// }
+const bodyElement = document.getElementById('body');
+
+setTimeout(() => {
+  if (document.getElementById('popup_window') === null) {
+    alert('condition yes');
+    bodyElement.style.overflow = 'auto';
+  } else {
+    alert('condition no');
+    bodyElement.style.overflow = 'hidden';
+  }
+}, 1);
