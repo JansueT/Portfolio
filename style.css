@@ -555,7 +555,7 @@ hr {
   font-size: 18px;
 }
 
-/*.popup_buttoms {
+.popup_buttoms {
   display: flex;
   gap: 30px;
 }
@@ -569,7 +569,7 @@ hr {
 .popup_engin {
   color: #172b4d;
   text-align: left;
-} */
+}
 
 @media only screen and (max-width: 768px) {
   .header_nav {
