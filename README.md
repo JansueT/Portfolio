@@ -31,11 +31,12 @@
 - I use basic JavaScript syntax.
 - I use JavaScript to manipulate DOM elements.
 - I use JavaScript events.
-
+- I work how to parse a Figma design to create a UI.
+- I use objects to store and access data.
 
 ## Description
 
-For this milestone of my portfolio website, I implement the mobile menu using my recently acquired JavaScript knowledge.
+For this milestone of my portfolio website, I implemented a popup window that includes the project details in both desktop and mobile. In order to do that, I needed to store the information about my projects in a JavaScript object.
 
 ## 🛠 Built With <a name="built-with"></a>
 
