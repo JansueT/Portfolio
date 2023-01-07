@@ -545,12 +545,12 @@ hr {
   z-index: 1;
 }
 
-/* .popup_img {
+.popup_img {
   width: 95%;
   margin-block: 15px;
 }
 
-.popup_p {
+/* .popup_p {
   color: #344563;
   font-size: 18px;
 }
