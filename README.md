@@ -38,6 +38,7 @@
 
 For this milestone of my portfolio website, I implemented a popup window that includes the project details in both desktop and mobile. In order to do that, I needed to store the information about my projects in a JavaScript object.
 
+
 ## 🛠 Built With <a name="built-with"></a>
 
 <details>

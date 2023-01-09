@@ -174,14 +174,16 @@
         </p>
         </div>
         <div class="form_container">
-            <form action="https://formspree.io/f/mqkozkka" method="post">
+            <form id="form_id" action="https://formspree.io/f/mqkozkka" method="post">
                 <input type="text" name="name" class="hover" maxlenght="30" placeholder="Full name" required>
-                <input type="email" name="email" class="hover" placeholder="Email address" required>
+                <input type="email" id="email_id" name="email" class="hover" placeholder="Email address" required>
+                <small id="error"></small>
                 <textarea type="text" name="text" class="hover" maxlenght="500" placeholder="Enter text here" required></textarea>
                 <div class="btn_container">
-                <button type="button" class="btngreen">Get in touch</button>
+                <button type="submit" class="btngreen">Get in touch</button>
                 </div>    
             </form>
+        
         </div>
         <img class="img2" src="./images/Frame@2x.png" alt="x" />
         <img class="img5" src="./images/Frame@2x1.png" alt="x"/>

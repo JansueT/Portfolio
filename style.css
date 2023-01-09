@@ -668,3 +668,7 @@ hr {
     top: 55px;
   }
 }
+
+#error {
+  color: red;
+}
