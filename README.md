@@ -15,7 +15,6 @@ npm install --save-dev hint@6.x For validation detection to use Webhint Run -npx
 
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x For validation detection to use Webhint Run
 
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -48,13 +47,11 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 - I describe core principles of building accessible websites and explain why accessibility is important.
 
-
 ## Description
 
 In the sixth milestone of my portfolio website, I will:
 
 - evaluate my website against accessibility best practices and implement any necessary changes to ensure that my website is accessible.
-
 
 ## 🛠 Built With <a name="built-with"></a>
 
