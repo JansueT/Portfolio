@@ -1,5 +1,7 @@
+/*
 const menuIconElement = document.getElementById('menu_icon');
 const menuElement = document.getElementById('menu');
+*/
 const closeMenuElement = document.getElementById('close_menu_icon');
 const links = document.getElementsByClassName('nav_items');
 const logo = document.querySelector('.header_logo');
