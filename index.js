@@ -3,7 +3,7 @@ const menuElement = document.getElementById('menu');
 const closeMenuElement = document.getElementById('close_menu_icon');
 const links = document.getElementsByClassName('nav_items');
 const logo = document.querySelector('.header_logo');
-// const btnGreenPopup = document.querySelector('.btngreen');
+const btnGreenPopup = document.querySelector('.btngreen');
 
 menuIconElement.addEventListener('click', () => {
   menuIconElement.classList.add('hide_menu');
