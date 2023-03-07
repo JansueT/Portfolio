@@ -103,7 +103,7 @@ No installation needed
 
 ### Usage
 
-- right click then open preview
+- Right click then open preview
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
