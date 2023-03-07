@@ -1,3 +1,20 @@
+<a name="readme-top"></a>
+
+# Portfolio:JansueT
+
+Getting Started
+Cloning the project
+Git clone git@github.com:JansueT/Portfolio.git
+To get a local copy up and running follow these simple example steps.
+Prerequisites
+
+Prerequisites A working browser application. VS code or anu other IDE NPM (Node Package Manager) Setup Install INSTALLING AND TESTING WEBHINT
+npm init -y
+
+npm install --save-dev hint@6.x For validation detection to use Webhint Run -npx hint . INSTALLING AND TESTING STYLEHINT
+
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x For validation detection to use Webhint Run
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -28,14 +45,13 @@
 
 ## Learning objectives
 
-- I use basic JavaScript syntax.
-- I use JavaScript to manipulate DOM elements.
-- I use JavaScript events.
-
+- I describe core principles of building accessible websites and explain why accessibility is important.
 
 ## Description
 
-For this milestone of my portfolio website, I implement the mobile menu using my recently acquired JavaScript knowledge.
+In the sixth milestone of my portfolio website, I will:
+
+- evaluate my website against accessibility best practices and implement any necessary changes to ensure that my website is accessible.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -85,6 +101,8 @@ For this milestone of my portfolio website, I implement the mobile menu using my
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+To get a local copy up and runing follow these simple example steps. 1.Clone the Repo or Download the Zip file or git clone git@github.com:JansueT/Portfolio.git](https://github.com/JansueT/Portfolio.git)o. Open it with the live server 
+
 ### Prerequisites
 
 In order to run this project you need:
@@ -94,7 +112,9 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/JansueT/Hello-microverse-project.git
+
+  git clone https://github.com/JansueT/Portfolio.git
+
 ```
 
 ### Install

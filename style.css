@@ -598,3 +598,7 @@ hr {
     display: block;
   }
 }
+
+#error {
+  color: red;
+}
