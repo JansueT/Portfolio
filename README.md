@@ -41,7 +41,7 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio<a name="Portfolio - mobile menu"></a>
+# Portfolio: Preserve data in the browser
 
 ## Learning objectives
 
@@ -55,6 +55,7 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 For this milestone of my portfolio website, I implemented a popup window that includes the project details in both desktop and mobile. In order to do that, I needed to store the information about my projects in a JavaScript object.
 
+- I used local storage to save user input.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -115,7 +116,9 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
+
   git clone https://github.com/JansueT/Portfolio.git
+
 ```
 
 ### Install
@@ -124,7 +127,7 @@ No installation needed
 
 ### Usage
 
-- right click then open preview
+- Right click then open preview
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
