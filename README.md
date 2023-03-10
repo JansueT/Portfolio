@@ -112,7 +112,9 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
+
   git clone https://github.com/JansueT/Portfolio.git
+
 ```
 
 ### Install
@@ -121,7 +123,7 @@ No installation needed
 
 ### Usage
 
-- right click then open preview
+- Right click then open preview
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,11 +144,17 @@ No installation needed
 
 ## 👥 Collabrations <a name="collabrationns"></a>
 
-👤 **Kodjo-Sarso Tetteh**
+👤 **Yan Min Thwin**
 
-- GitHub: [@githubhandle](https://github.com/reggeddit)
-- Twitter: [@twitterhandle](https://twitter.com/tksarso)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@anbehindY](https://github.com/anbehindY)
+- Twitter: [@yanminthwin](https://twitter.com/yanminthwin)
+- LinkedIn: [Yan Min Thwin](https://www.linkedin.com/in/yan-min-thwin-192862215)
+
+👤 **Aimable BANCUNGUYE**
+
+- GitHub: [@bancunguye66](https://github.com/bancunguye66)
+- Twitter: [@bancunguye66](https://twitter.com/bancunguye66)
+- LinkedIn: [Aimable BANCUNGUYE](https://linkedin.com/in/Aimable BANCUNGUYE)
 
 <!-- CONTRIBUTING -->
 
