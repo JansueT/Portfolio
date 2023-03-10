@@ -66,11 +66,10 @@ formElement.elements.text.addEventListener('input', saveForm);
 
 const showSavedData = () => {
   if (localStorage.getItem('formdata') !== true) return;
-    const userData = JSON.parse(localStorage.getItem('formdata'));
-    formElement.elements.name.value = userData.name;
-    formElement.elements.email.value = userData.email;
-    formElement.elements.text.value = userData.text;
+  const userData = JSON.parse(localStorage.getItem('formdata'));
+  formElement.elements.name.value = userData.name;
+  formElement.elements.email.value = userData.email;
+  formElement.elements.text.value = userData.text;
 };
 
 showSavedData();
-
