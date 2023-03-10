@@ -383,6 +383,7 @@ textarea:hover {
 }
 
 .aboutme_btn_container {
+  width: -moz-fit-content;
   width: fit-content;
   margin: 5% auto;
 }
@@ -600,5 +601,5 @@ hr {
 }
 
 #error {
-  color: red;
+  color: lightcoral;
 }
