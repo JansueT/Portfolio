@@ -41,40 +41,36 @@ formElement.addEventListener('submit', (event) => {
   }
 });
 
-const formInput = document.getElementById('form_id');
-
 const store = (key, value) => {
   localStorage.setItem(key, value);
 };
 
 const saveForm = (event) => {
-  const data = {};
+  const formdata = {};
   event.preventDefault();
-  if (formInput.elements.name.value) {
-    data.name = formInput.elements.name.value;
+  if (formElement.elements.name.value) {
+    formdata.name = formElement.elements.name.value;
   }
-  if (formInput.elements.email.value) {
-    data.email = formInput.elements.email.value;
+  if (formElement.elements.email.value) {
+    formdata.email = formElement.elements.email.value;
   }
-  if (formInput.elements.text.value) {
-    data.text = formInput.elements.text.value;
+  if (formElement.elements.text.value) {
+    formdata.text = formElement.elements.text.value;
   }
-  store('data', JSON.stringify(data));
-  window.localStorage.setItem('formdata', data);
+  store('formdata', JSON.stringify(formdata));
 };
-formInput.elements.name.addEventListener('input', saveForm);
-formInput.elements.email.addEventListener('input', saveForm);
-formInput.elements.text.addEventListener('input', saveForm);
+
+formElement.elements.name.addEventListener('input', saveForm);
+formElement.elements.email.addEventListener('input', saveForm);
+formElement.elements.text.addEventListener('input', saveForm);
 
 const showSavedData = () => {
-  if (localStorage.getItem('data')) {
-    const userData = JSON.parse(localStorage.getItem('data'));
-    formInput.elements.name.value = userData.name;
-    formInput.elements.email.value = userData.email;
-    formInput.elements.text.value = userData.text;
-  }
+  if (localStorage.getItem('formdata') !== true) return;
+    const userData = JSON.parse(localStorage.getItem('formdata'));
+    formElement.elements.name.value = userData.name;
+    formElement.elements.email.value = userData.email;
+    formElement.elements.text.value = userData.text;
 };
 
 showSavedData();
 
-formInput.addEventListener('submit', saveForm);
