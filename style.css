@@ -589,16 +589,16 @@ hr {
     display: none;
   }
 
-  #menu li:first-child {
-    display: flex;
-    width: 85vw;
-    justify-content: flex-end;
-  }
-
   #menu li {
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 10px;
+  }
+
+  #menu li:first-child {
+    display: flex;
+    width: 85vw;
+    justify-content: flex-end;
   }
 
   .close_menu_icon {
