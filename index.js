@@ -41,35 +41,24 @@ formElement.addEventListener('submit', (event) => {
   }
 });
 
-const store = (key, value) => {
-  localStorage.setItem(key, value);
-};
+const nameElement = document.getElementById('name');
+const textareaElement = document.getElementById('text');
 
-const saveForm = (event) => {
-  const formdata = {};
-  event.preventDefault();
-  if (formElement.elements.name.value) {
-    formdata.name = formElement.elements.name.value;
+formElement.addEventListener('input', () => {
+  const formData = {
+    name: nameElement.value,
+    email: emailElement.value,
+    message: textareaElement.value,
+  };
+  localStorage.setItem('contactForm', JSON.stringify(formData));
+});
+
+function showData() {
+  const userData = JSON.parse(localStorage.getItem('contactForm'));
+  if (userData) {
+    nameElement.value = userData.name;
+    emailElement.value = userData.email;
+    textareaElement.value = userData.message;
   }
-  if (formElement.elements.email.value) {
-    formdata.email = formElement.elements.email.value;
-  }
-  if (formElement.elements.text.value) {
-    formdata.text = formElement.elements.text.value;
-  }
-  store('formdata', JSON.stringify(formdata));
-};
-
-formElement.elements.name.addEventListener('input', saveForm);
-formElement.elements.email.addEventListener('input', saveForm);
-formElement.elements.text.addEventListener('input', saveForm);
-
-const showSavedData = () => {
-  if (localStorage.getItem('formdata') !== true) return;
-  const userData = JSON.parse(localStorage.getItem('formdata'));
-  formElement.elements.name.value = userData.name;
-  formElement.elements.email.value = userData.email;
-  formElement.elements.text.value = userData.text;
-};
-
-showSavedData();
+}
+showData();
