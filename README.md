@@ -172,6 +172,11 @@ No installation needed
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+👤 **Ichsan Sandy**
+
+- GitHub: [@ichsansandy](https://github.com/ichsansandy)
+- LinkedIn: [@Ichsan Sandy](https://www.linkedin.com/in/ichsans/)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/JansueT/Hello-microverse-project/issues/).
