@@ -1,33 +1,19 @@
-Portfolio to Microverse course
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-Modify this file to match your project and remove sections that don't apply.
+# Portfolio:JansueT
 
-REQUIRED SECTIONS:
+Getting Started
+Cloning the project
+Git clone git@github.com:JansueT/Portfolio.git
+To get a local copy up and running follow these simple example steps.
+Prerequisites
 
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
+Prerequisites A working browser application. VS code or anu other IDE NPM (Node Package Manager) Setup Install INSTALLING AND TESTING WEBHINT
+npm init -y
 
-After you're finished please remove all the comments and instructions!
--->
+npm install --save-dev hint@6.x For validation detection to use Webhint Run -npx hint . INSTALLING AND TESTING STYLEHINT
 
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x For validation detection to use Webhint Run
 
 <!-- TABLE OF CONTENTS -->
 
@@ -55,20 +41,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio<a name="about-project"></a>
+# Portfolio: Preserve data in the browser
 
 ## Learning objectives
 
-- I will create forms with HTML5 validations.
-- I will show the importance of UX.
-- I will do how to parse a Figma design to create a UI.
+- I used local storage to save user input.
 
 ## Description
 
-For the third milestone of my portfolio website, I will:
-
-- Add a contact form to my portfolio and the portfolio of my coding partner.
-- Make sure that I guide my users' experience in a way that helps them fill in the form without frustration.
+For this final milestone of my portfolio website, I will save the form data in the `local storage` of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,56 +62,44 @@ For the third milestone of my portfolio website, I will:
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>HTML</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="#">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>HTML5</summary>
+  <summary>CSS</summary>
   <ul>
-    <li><a href="#">HTML5</a></li>
+    <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>CSS3</summary>
+  <summary>JavaScript</summary>
   <ul>
-    <li><a href="#">CSS3</a></li>
+    <li><a href="#">JS</a></li>
   </ul>
 </details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-- **[html]**
-- **[css]**
-
-- **colored header**
-- **milestone**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name ="live-demo"></a>
 
-> [Live Demo](https://jansuet.github.io/Portfolio/)
+> [Live Demo link](https://jansuet.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and runing follow these simple example steps. 1.Clone the Repo or Download the Zip file or git clone git@github.com:JansueT/Portfolio.git](https://github.com/JansueT/Portfolio.git)o. Open it with the live server 
 
 ### Prerequisites
 
@@ -141,8 +110,9 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
-  git clone https://github.com/JansueT/Hello-microverse-project.git
+
+  git clone https://github.com/JansueT/Portfolio.git
+
 ```
 
 ### Install
@@ -151,22 +121,38 @@ No installation needed
 
 ### Usage
 
-- right click then open preview
+- Right click then open preview
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors">Jansue</a>
+## 👥 Authors <a name="authors"></a>
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **JansueT**
 
 - GitHub: [@githubhandle](https://github.com/JansueT)
 - instagram: [@cansuetas](https://instagram.com/cansuetas)
 - twitter: [@cansu8tas](https://twitter.com/cansu8tas)
 - linkedIn: [@LinkedIn](https://www.linkedin.com/in/cansu-tas-467844251/)
+
+<!-- COLLABRATIONS-->
+
+## 👥 Collabrations <a name="collabrationns"></a>
+
+👤 **Yan Min Thwin**
+
+- GitHub: [@anbehindY](https://github.com/anbehindY)
+- Twitter: [@yanminthwin](https://twitter.com/yanminthwin)
+- LinkedIn: [Yan Min Thwin](https://www.linkedin.com/in/yan-min-thwin-192862215)
+
+👤 **Aimable BANCUNGUYE**
+
+- GitHub: [@bancunguye66](https://github.com/bancunguye66)
+- Twitter: [@bancunguye66](https://twitter.com/bancunguye66)
+- LinkedIn: [Aimable BANCUNGUYE](https://linkedin.com/in/Aimable BANCUNGUYE)
 
 <!-- CONTRIBUTING -->
 
@@ -205,7 +191,7 @@ If you like this project...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio Website| Jansue, a software developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
@@ -15,15 +15,34 @@
 <body>
     <header class="header">
         <nav class="header_nav">
-            <div class="header_logo black">
-                <a class="black" href="#">Welcome</a>
+            <div class="header_logo">
+                <a class="logo" href="#">Cansu</a>
             </div>
-            <div class="header_menu">
+
+            <div class="items_container">
+            <ul class="header_nav_desktop_version" id="menu">
+                <li>
+                    <img class="close_menu_icon" src="images/x.png" id="close_menu_icon"  alt="close menu icon"/>
+                </li>
+                <li>
+                    <a class="nav_items" href="#Portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a class="nav_items" href="#about-me">About</a>
+                </li>
+                <li>
+                    <a class="nav_items" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="header_menu" id="menu_icon">
                 <img class="menu_icon" src="images/Union.png" alt="menu" />
             </div>
+            </div>
+        
+        
         </nav>
     </header>
-    <section class="headline">
+    <section class="headline" id="Portfolio">
         <h1 class="headline_title">
             <span class="sub-headline_title_1">Hey there. I’m Cansu</span>
             <span class="sub-headline_title">I'm a software developer</span>
@@ -38,331 +57,344 @@
             <ul class="social_links">
                 <li class="social_link">
                     <a href="#">
-                        <img class="social_icon" src="images/twitter.svg" alt="twitter" />
+                        <img class="social_icon" src="images/twitter.svg" alt="Twitter Icon" />
                     </a>
                 </li>
                 <li class="social_links"></li>
                 <li class="social_link">
                     <a href="#">
-                        <img class="social_icon" src="images/Linkedin icon.svg" alt="linkedin" />
+                        <img class="social_icon" src="images/Linkedin icon.svg" alt="Linkedin Icon" />
                     </a>
                 </li>
                 <li class="social_link">
                     <a href="#">
-                        <img class="social_icon" src="images/github.svg" alt="github" />
+                        <img class="social_icon" src="images/github.svg" alt="Github Icon" />
                     </a>
                 </li>
                 <li class="social_link">
                     <a href="#">
-                        <img class="social_icon" src="images/medium.svg" alt="M" />
+                        <img class="social_icon" src="images/medium.svg" alt="Medium Icon" />
                     </a>
                 </li>
                 <li class="social_link">
                     <a href="#">
-                        <img class="social_icon" src="images/angellist.svg" alt="Hand" />
+                        <img class="social_icon" src="images/angellist.svg" alt="AngelList Icon" />
                     </a>
                 </li>
             </ul>
         </div>
+
+
+        <div class="dropdown">
+            <img class="dropdownimg" src="images/Disabled.png" alt="dwopdownimg" />
+
+        </div>
     </section>
+    <section>
     <div>
         <div>
             <div>
                 <h3 class="batu">
-                    My Recent <br> Works
+                    My Recent Works
                 </h3>
                 <hr>
             </div>
+        </div>
+    </div>
 
-
-            <div class="main-container">
-                <div class="imgplacesholder"></div>
-                <div class="container">
-                    <h2 class="engin">
-                        Multi-Post Stories <br> Gain+Glory
-                    </h2>
-                    <ul class="eylem">
-                        <li class="irem">
-                            <button class="btn1">
-                                Ruby on rails
-                            </button>
-                        </li>
-                        <li class="irem">
-                            <button class="btn1">
+    <div class="cards_container">
+        <div class="card">
+            <div class="imgplacesholder"></div>
+            <div class="container">
+                <h2 class="engin">
+                    Multi-Post Stories <br> Gain+Glory
+                </h2>
+                <ul class="eylem">
+                    <li class="irem">
+                        <button type="button" class="btn1">
+                            Ruby on rails
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="css" type="button" class="btn1">
                                 css
                             </button>
                         </li>
                         <li class="irem">
-                            <button class="btn1">
+                            <button role="button" aria-label="JavaScript" type="button" class="btn1">
                                 JavScript
                             </button>
                         </li>
                         <li class="irem">
-                            <button class="btn1">
+                            <button role="button" aria-label="html" type="button" class="btn1">
                                 html
                             </button>
                         </li>
                     </ul>
-                    <button class="btngreen">
-                        See Project
-                    </button>
+                <button role="button" aria-label="See Project" type="button" class="btngreen">
+                 See Project
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="imgplacesholder"></div>
+            <div class="container">
+                <h2 class="engin">
+                    Multi-Post Stories <br> Gain+Glory
+                </h2>
+                <ul class="eylem">
+                    <li class="irem">
+                        <button role="button" aria-label="Ruby on rails" type="button" class="btn1">
+                            Ruby on rails
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="css" type="button" class="btn1">
+                            css
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="JavaScript" type="button" class="btn1">
+                            JavScript
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="html" type="button" class="btn1">
+                            html
+                        </button>
+                    </li>
+                </ul>
+                <button role="button" aria-label="See Project" type="button" class="btngreen">
+                    See Project
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="imgplacesholder"></div>
+            <div class="container">
+                <h2 class="engin">
+                    Multi-Post Stories <br> Gain+Glory
+                </h2>
+                <ul class="eylem">
+                    <li class="irem">
+                        <button role="button" aria-label="Ruby on rails" type="button" class="btn1">
+                            Ruby on rails
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="css" type="button" class="btn1">
+                            css
+                        </button>
+                    </li>
+                    <li role="button" aria-label="JavaScript" class="irem">
+                        <button type="button" class="btn1">
+                            JavScript
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="html" type="button" class="btn1">
+                            html
+                        </button>
+                    </li>
+                </ul>
+                <button role="button" aria-label="See Project" type="button" class="btngreen">
+                    See Project
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgplacesholder"></div>
+            <div class="container">
+                <h2 class="engin">
+                    Multi-Post Stories <br> Gain+Glory
+                </h2>
+                <ul class="eylem">
+                    <li class="irem">
+                        <button role="button" aria-label="Ruby on rails" type="button" class="btn1">
+                            Ruby on rails
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button  role="button" aria-label="css" type="button" class="btn1">
+                            css
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="JavaScript" type="button" class="btn1">
+                            JavScript
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="html" type="button" class="btn1">
+                            html
+                        </button>
+                    </li>
+                </ul>
+                <button role="button" aria-label="See Project" type="button" class="btngreen">
+                    See Project
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgplacesholder"></div>
+            <div class="container">
+                <h2 class="engin">
+                    Multi-Post Stories <br> Gain+Glory
+                </h2>
+                <ul class="eylem">
+                    <li class="irem">
+                        <button role="button" aria-label="Ruby on rails" type="button" class="btn1">
+                            Ruby on rails
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="css" type="button" class="btn1">
+                            css
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="JavaScript" type="button" class="btn1">
+                            JavScript
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="html" type="button" class="btn1">
+                            html
+                        </button>
+                    </li>
+                </ul>
+                <button role="button" aria-label="See Project" type="button" class="btngreen">
+                    See Project
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgplacesholder"></div>
+            <div class="container">
+                <h2 class="engin">
+                    Multi-Post Stories <br> Gain+Glory
+                </h2>
+                <ul class="eylem">
+                    <li class="irem">
+                        <button role="button" aria-label="Ruby on rails" type="button" class="btn1">
+                            Ruby on rails
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="css" type="button" class="btn1">
+                            css
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="JavaScript" type="button" class="btn1">
+                            JavScript
+                        </button>
+                    </li>
+                    <li class="irem">
+                        <button role="button" aria-label="html" type="button" class="btn1">
+                            html
+                        </button>
+                    </li>
+                </ul>
+                <button role="button" aria-label="See Project" type="button" class="btngreen">
+                    See Project
+                </button>
                 </div>
             </div>
-            </div>
-
- 
-        <div class="main-container">
-            <div class="imgplacesholder"></div>
-            <div class="container">
-                <h2 class="engin">
-                    Multi-Post Stories <br> Gain+Glory
-                </h2>
-                <ul class="eylem">
-                    <li class="irem">
-                        <button class="btn1">
-                            Ruby on rails
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            css
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            JavScript
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            html
-                        </button>
-                    </li>
-                </ul>
-                <button class="btngreen">
-                    See Project
-                </button>
-            </div>
-        </div>
-        </div>
-
-
-        <div class="main-container">
-            <div class="imgplacesholder"></div>
-            <div class="container">
-                <h2 class="engin">
-                    Multi-Post Stories <br> Gain+Glory
-                </h2>
-                <ul class="eylem">
-                    <li class="irem">
-                        <button class="btn1">
-                            Ruby on rails
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            css
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            JavScript
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            html
-                        </button>
-                    </li>
-                </ul>
-                <button class="btngreen">
-                    See Project
-                </button>
-            </div>
-        </div>
-        </div>
-
-
-        <div class="main-container">
-            <div class="imgplacesholder"></div>
-            <div class="container">
-                <h2 class="engin">
-                    Multi-Post Stories <br> Gain+Glory
-                </h2>
-                <ul class="eylem">
-                    <li class="irem">
-                        <button class="btn1">
-                            Ruby on rails
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            css
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            JavScript
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            html
-                        </button>
-                    </li>
-                </ul>
-                <button class="btngreen">
-                    See Project
-                </button>
-            </div>
-        </div>
-        </div>
-
-
-        <div class="main-container">
-            <div class="imgplacesholder"></div>
-            <div class="container">
-                <h2 class="engin">
-                    Multi-Post Stories <br> Gain+Glory
-                </h2>
-                <ul class="eylem">
-                    <li class="irem">
-                        <button class="btn1">
-                            Ruby on rails
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            css
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            JavScript
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            html
-                        </button>
-                    </li>
-                </ul>
-                <button class="btngreen">
-                    See Project
-                </button>
-            </div>
-        </div>
-        </div>
-
-
-        <div class="main-container">
-            <div class="imgplacesholder"></div>
-            <div class="container">
-                <h2 class="engin">
-                    Multi-Post Stories <br> Gain+Glory
-                </h2>
-                <ul class="eylem">
-                    <li class="irem">
-                        <button class="btn1">
-                            Ruby on rails
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            css
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            JavScript
-                        </button>
-                    </li>
-                    <li class="irem">
-                        <button class="btn1">
-                            html
-                        </button>
-                    </li>
-                </ul>
-                <button class="btngreen">
-                    See Project
-                </button>
-            </div>
-        </div>
         </div>
     </section>
 
-
-    <section id="about-me" class="container">
-        <h1>About me</h1>
+    <section id="about-me" class="aboutme_container">
         <div class="img3"></div>
-        <p>
+        <div class="about_content">
+        <h2>About me</h2>
+        <p class="aboutme_text">
             I can help you build a product , feature or website Look through some of my work and experience! If you like
             what you see and have a project you need coded,
             don’t hestiate to contact me.
         </p>
+        <div class="aboutme_btn_container">
+            <button role="button" aria-label="Get My Resume" type="button" class="aboutme_button">
+                Get My Resume
+            </button>
+        </div>
+        </div>
         <div class="img4"></div>
-        <button class="btngreen">
-            Get My Resume
-        </button>
     </section>
 
-    <section>
-        <div class="card">
+
+    <section class="cards_container">
+        <div class="about_card">
             <img class="logo-img" src="./images/Group-2.svg" alt="">
             <h2>
                 Languages
             </h2>
             <ul class="eylemm">
-                <li><button class="btn2">JavaScript</button></li>
-                <li><button class="btn2">Ruby</button></li>
-                <li><button class="btn2">Html</button></li>
-                <li><button class="btn2">CSS</button></li>
+                <li><button role="button" aria-label="JavaScript" type="button" class="btn2">JavaScript</button></li>
+                <li><button role="button" aria-label="Ruby" type="button" class="btn2">Ruby</button></li>
+                <li><button role="button" aria-label="Html" type="button" class="btn2">Html</button></li>
+                <li><button role="button" aria-label="CSS" type="button" class="btn2">CSS</button></li>
             </ul>
         </div>
 
-        <div class="card">
+        <div class="about_card">
             <img class="logo-img" src="./images/Group.svg" alt="">
             <h2>
                 Frameworks
             </h2>
             <ul class="eylemm">
-                <li><button class="btn2">Bootstrap</button></li>
-                <li><button class="btn2">Ruby on rails</button></li>
-                <li><button class="btn2">RSpec</button></li>
-                <li><button class="btn2">Capybara</button></li>
-                <li><button class="btn2">Selenium</button></li>
+                <li><button role="button" aria-label="Bootstrap" type="button" class="btn2">Bootstrap</button></li>
+                <li><button role="button" aria-label="Ruby on rails" type="button" class="btn2">Ruby on rails</button></li>
+                <li><button role="button" aria-label="RSpec" type="button" class="btn2">RSpec</button></li>
+                <li><button role="button" aria-label="Capybara" type="button" class="btn2">Capybara</button></li>
+                <li><button role="button" aria-label="Selenium" type="button" class="btn2">Selenium</button></li>
             </ul>
         </div>
 
-        <div class="card">
+        <div class="about_card">
             <img class="logo-img1" src="./images/icon-skills.svg" alt="">
             <h2>
                 Skills
             </h2>
             <ul class="eylemm">
-                <li><button class="btn2">Codekit</button></li>
-                <li><button class="btn2">GitHub</button></li>
-                <li><button class="btn2">Codepen</button></li>
-                <li><button class="btn2">Gitlab</button></li>
-                <li><button class="btn2">Terminal</button></li>
+                <li><button role="button" aria-label="Codekit" type="button" class="btn2">Codekit</button></li>
+                <li><button role="button" aria-label="GitHub" type="button" class="btn2">GitHub</button></li>
+                <li><button role="button" aria-label="Codepen" type="button" class="btn2">Codepen</button></li>
+                <li><button role="button" aria-label="Gitlab" type="button" class="btn2">Gitlab</button></li>
+                <li><button role="button" aria-label="Terminal" type="button" class="btn2">Terminal</button></li>
             </ul>
         </div>
     </section>
-        
-<section class="enginn">
+
+    <section class="enginn" id="contact">
+        <div class="last-p_container">
         <p class="last-p">
             I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
         </p>
-    
-        <div>
-            <form action="https://formspree.io/f/mqkozkka" method="post">
-                <input type="text" name="name" class="hover" maxlenght="30" placeholder="Full name" required>
-                <input type="email" name="email" class="hover" placeholder="Email address" required>
-                <textarea type="text" name="text" class="hover" maxlenght="500" placeholder="Enter text here" required></textarea>
-                <button class="btngreen">Get in touch</button>
-            </form>
         </div>
-        <div class="img2"></div>
+        <div class="form_container">
+            <form id="form_id" action="https://formspree.io/f/mqkozkka" method="post">
+                <input type="text" id='name' name="name" class="hover" maxlenght="30" placeholder="Full name" required>
+                <input type="email" id="email_id" name="email" class="hover" placeholder="Email address" required>
+                <small id="error"></small>
+                <textarea type="text" id='text' name="text" class="hover" maxlenght="500" placeholder="Enter text here" required></textarea>
+                <div class="btn_container">
+                <button role="button" aria-label="Get in touch" type="submit" class="btngreen">Get in touch</button>
+                </div>    
+
+            </form>
+        
+        </div>
+        <img class="img2" src="./images/Frame@2x.png" alt="x"/>
+        <img class="img5" src="./images/Frame@2x1.png" alt="x"/>
+        <img class="img6" src="./images/illustration-2-contact-form-desktop@2x.png" alt="x"/>
     </section>
     
         
@@ -371,34 +403,34 @@
         <ul class="social_links1">
             <li class="social_link">
                 <a href="#">
-                    <img class="social_icon" src="images/twitter.svg" alt="twitter">
+                    <img class="social_icon" src="images/twitter.svg" alt="Twitter Icon">
                 </a>
             </li>
             <li class="social_links">
             <li class="social_link">
                 <a href="#">
-                    <img class="social_icon" src="images/Linkedin icon.svg" alt="linkedin">
+                    <img class="social_icon" src="images/Linkedin icon.svg" alt="Linkedin Icon">
                 </a>
             </li>
             <li class="social_link">
                 <a href="#">
-                    <img class="social_icon" src="images/github.svg" alt="github">
+                    <img class="social_icon" src="images/github.svg" alt="GitHub Icon">
                 </a>
             </li>
             <li class="social_link">
                 <a href="#">
-                    <img class="social_icon" src="images/medium.svg" alt="M">
+                    <img class="social_icon" src="images/medium.svg" alt="Medium Icon">
                 </a>
             </li>
             <li class="social_link">
                 <a href="#">
-                    <img class="social_icon" src="images/angellist.svg" alt="Hand">
+                    <img class="social_icon" src="images/angellist.svg" alt="AngelList Icon">
                 </a>
             </li>
         </ul>
     </div>
-    <a class="link" href="#">cansu8tas@gmail.com</a>
     <hr class="footer-hr" />
+    <script src="index.js"></script>
 </body>
 
 </html>
