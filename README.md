@@ -142,26 +142,14 @@ No installation needed
 
 ## 👥 Collabrations <a name="collabrationns"></a>
 
-👤 **Yan Min Thwin**
-
-- GitHub: [@anbehindY](https://github.com/anbehindY)
-- Twitter: [@yanminthwin](https://twitter.com/yanminthwin)
-- LinkedIn: [Yan Min Thwin](https://www.linkedin.com/in/yan-min-thwin-192862215)
-
-👤 **Aimable BANCUNGUYE**
-
-- GitHub: [@bancunguye66](https://github.com/bancunguye66)
-- Twitter: [@bancunguye66](https://twitter.com/bancunguye66)
-- LinkedIn: [Aimable BANCUNGUYE](https://linkedin.com/in/Aimable BANCUNGUYE)
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
 👤 **Ichsan Sandy**
 
 - GitHub: [@ichsansandy](https://github.com/ichsansandy)
 - LinkedIn: [@Ichsan Sandy](https://www.linkedin.com/in/ichsans/)
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
