@@ -99,7 +99,7 @@ For this final milestone of my portfolio website, I will save the form data in t
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and runing follow these simple example steps. 1.Clone the Repo or Download the Zip file or git clone git@github.com:JansueT/Portfolio.git](https://github.com/JansueT/Portfolio.git)o. Open it with the live server 
+To get a local copy up and runing follow these simple example steps. 1.Clone the Repo or Download the Zip file or git clone git@github.com:JansueT/Portfolio.git](https://github.com/JansueT/Portfolio.git)o. Open it with the live server
 
 ### Prerequisites
 
