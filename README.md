@@ -99,7 +99,7 @@ For this final milestone of my portfolio website, I will save the form data in t
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and runing follow these simple example steps. 1.Clone the Repo or Download the Zip file or git clone git@github.com:JansueT/Portfolio.git](https://github.com/JansueT/Portfolio.git)o. Open it with the live server 
+To get a local copy up and runing follow these simple example steps. 1.Clone the Repo or Download the Zip file or git clone git@github.com:JansueT/Portfolio.git](https://github.com/JansueT/Portfolio.git)o. Open it with the live server
 
 ### Prerequisites
 
@@ -142,17 +142,10 @@ No installation needed
 
 ## 👥 Collabrations <a name="collabrationns"></a>
 
-👤 **Yan Min Thwin**
+👤 **Ichsan Sandy**
 
-- GitHub: [@anbehindY](https://github.com/anbehindY)
-- Twitter: [@yanminthwin](https://twitter.com/yanminthwin)
-- LinkedIn: [Yan Min Thwin](https://www.linkedin.com/in/yan-min-thwin-192862215)
-
-👤 **Aimable BANCUNGUYE**
-
-- GitHub: [@bancunguye66](https://github.com/bancunguye66)
-- Twitter: [@bancunguye66](https://twitter.com/bancunguye66)
-- LinkedIn: [Aimable BANCUNGUYE](https://linkedin.com/in/Aimable BANCUNGUYE)
+- GitHub: [@ichsansandy](https://github.com/ichsansandy)
+- LinkedIn: [@Ichsan Sandy](https://www.linkedin.com/in/ichsans/)
 
 <!-- CONTRIBUTING -->
 
