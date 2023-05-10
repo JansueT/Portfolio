@@ -142,11 +142,6 @@ No installation needed
 
 ## 👥 Collabrations <a name="collabrationns"></a>
 
-👤 **Ichsan Sandy**
-
-- GitHub: [@ichsansandy](https://github.com/ichsansandy)
-- LinkedIn: [@Ichsan Sandy](https://www.linkedin.com/in/ichsans/)
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
