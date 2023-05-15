@@ -20,15 +20,15 @@ closeMenuElement.addEventListener('click', () => {
   logo.classList.remove('hide_menu');
 });
 
-for (let i = 0; i < links.length; i += 1) {
-  links[i].addEventListener('click', () => {
-    document.body.style.overflowY = 'scroll';
-    menuIconElement.classList.remove('hide_menu');
-    menuElement.classList.remove('cansu_menu');
-    closeMenuElement.classList.add('hide_menu');
-    logo.classList.remove('hide_menu');
-  });
-}
+// for (let i = 0; i < links.length; i += 1) {
+//   links[i].addEventListener('click', () => {
+//     document.body.style.overflowY = 'scroll';
+//     menuIconElement.classList.remove('hide_menu');
+//     menuElement.classList.remove('cansu_menu');
+//     closeMenuElement.classList.add('hide_menu');
+//     logo.classList.remove('hide_menu');
+//   });
+// }
 
 const smallElement = document.getElementById('error');
 const emailElement = document.getElementById('email_id');
