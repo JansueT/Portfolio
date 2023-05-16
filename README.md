@@ -41,17 +41,15 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio<a name="Portfolio - mobile menu"></a>
+# Portfolio: Preserve data in the browser
 
 ## Learning objectives
 
-- I describe core principles of building accessible websites and explain why accessibility is important.
+- I used local storage to save user input.
 
 ## Description
 
-In the sixth milestone of my portfolio website, I will:
-
-- evaluate my website against accessibility best practices and implement any necessary changes to ensure that my website is accessible.
+For this final milestone of my portfolio website, I will save the form data in the `local storage` of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -101,7 +99,7 @@ In the sixth milestone of my portfolio website, I will:
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and runing follow these simple example steps. 1.Clone the Repo or Download the Zip file or git clone git@github.com:JansueT/Portfolio.git](https://github.com/JansueT/Portfolio.git)o. Open it with the live server 
+To get a local copy up and runing follow these simple example steps. 1.Clone the Repo or Download the Zip file or git clone git@github.com:JansueT/Portfolio.git](https://github.com/JansueT/Portfolio.git)o. Open it with the live server
 
 ### Prerequisites
 
@@ -148,6 +146,7 @@ No installation needed
 
 - GitHub: [@Abbas-Aljuaifari](https://github.com/Abbas-Aljuaifari)
 - LinkedIn: [Abbas(fares)Aljuaifari](https://www.linkedin.com/in/abbas-aljuaifari-17a018261/)
+
 
 <!-- CONTRIBUTING -->
 
