@@ -21,9 +21,19 @@
 - [:pray: Acknowledgements](#acknowledgements)
 - [:memo: License](#license)
 
-# :book: Portfolio <a name="about-project"></a>
+# :book: Portfolio <a name="Portfolio-mobile menu js"></a>
 
-Welcome to my interactive web portfolio! This project showcases my skills in front-end web development using HTML, CSS, JavaScript, and a linter for code quality assurance. Through this portfolio, I aim to demonstrate my proficiency in creating visually appealing and functional websites
+Welcome to my interactive web portfolio! This project showcases my skills in front-end web development using HTML, CSS, JavaScript, and a linter for code quality assurance. Through this portfolio, I aim to demonstrate my proficiency in creating visually appealing and functional websites.
+
+## Description
+
+For this milestone of my portfolio website, I implement a client-side validation of the data in the contact form before submission.
+
+## Learning objectives
+
+- Use basic JavaScript syntax.
+- Use JavaScript to manipulate DOM elements.
+- Use JavaScript events.
 
 
 ## :hammer_and_wrench: Built With <a name="built-with"></a>
@@ -49,6 +59,7 @@ Welcome to my interactive web portfolio! This project showcases my skills in fro
 - **CSS Grid**
 - **Transitions and Animations**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LIVE DEMO -->
 
 
@@ -62,6 +73,7 @@ To get a local copy up and running, follow these steps.
 
 
 ### Prerequisites
+
 In order to run this project you need:
 - A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
 - An IDE e.g [Visual studio code](https://code.visualstudio.com/).
@@ -69,6 +81,7 @@ In order to run this project you need:
 
 
 ### Setup
+
 Clone this repository to your desired folder or download the Zip folder:
 ```sh
     "git clone https://github.com/JansueT/Portfolio.git"
@@ -79,6 +92,7 @@ Clone this repository to your desired folder or download the Zip folder:
 ```
 
 ### Install
+
 Install all dependencies:
 ```sh
     "npm install"
@@ -86,6 +100,7 @@ Install all dependencies:
 
 
 ### Usage
+
 To run the project, follow these instructions:
 - You have to clone this repo to your local machine.
 - If you want to run it on your preferred browser, run:
@@ -94,6 +109,7 @@ To run the project, follow these instructions:
 ```
 
 ### Run tests
+
 To run tests, run the following command:
 - HTML linter errors run:
 ```
@@ -109,14 +125,17 @@ npm test
 ```
 
 ### Deployment <a name="deployment"></a>
+
 You can deploy this project using: GitHub Pages,
 - I used GitHub Pages to deploy my website.
 - To learn about github page information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
 - or You can go through W3Schools, "[W3schools github pages](https://www.w3schools.com/git/git_remote_pages.asp?remote=github)".
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 👥 Authors <a name="authors"></a>
 
-:bust_in_silhouette: **JansueT**
+👤 **JansueT**
+
 - GitHub: [@githubhandle](https://github.com/JansueT)
 - instagram: [@cansuetas](https://instagram.com/cansuetas)
 - twitter: [@cansu8tas](https://twitter.com/cansu8tas)
@@ -125,12 +144,25 @@ You can deploy this project using: GitHub Pages,
 
 <!-- COLLABRATIONS-->
 
-## :busts_in_silhouette: Collabrations <a name="collabrationns"></a>
-:bust_in_silhouette: **Abbas-Aljuaifari**
+## 👥 Collabrations <a name="collabrationns"></a>
+
+👤 **Abbas-Aljuaifari**
+
 - GitHub: [@Abbas-Aljuaifari](https://github.com/Abbas-Aljuaifari)
 - LinkedIn: [Abbas(fares)Aljuaifari](https://www.linkedin.com/in/abbas-aljuaifari-17a018261/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/JansueT/Hello-microverse-project/issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Features -->
 
 ## :telescope: Future Features <a name="future-features"></a>
 - [ ] **Make the site dynamic**
@@ -139,23 +171,23 @@ You can deploy this project using: GitHub Pages,
 - [ ] **Add Bootstrap.**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
 
-## :handshake: Contributing <a name="contributing"></a>
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/JansueT/Portfolio/issues).
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## ⭐️ Show your support <a name="support"></a>
 
-
-## :star:️ Show your support <a name="support"></a>
 Give a :star:️ if you like this project and how I managed to build it!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
-## :pray: Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
 - Thanks to the Microverse team for the opportunity to make this project.
 - A huge appreciation to my coding partner(s), morning session team, and standup team for their motivational support.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
 
-## :memo: License <a name="license"></a>
-This project is [MIT](https://github.com/JansueT/Portfolio/blob/main/LICENSE.md) licensed.
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
