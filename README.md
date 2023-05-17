@@ -24,60 +24,50 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio<a name="Portfolio - mobile menu"></a>
+# 📖 Portfolio<a name="Portfolio - validate contact form"></a>
 
-## Learning objectives
-
-- I process user input according to business rules.
-- I use client-side validation to catch and throw errors in the UI.
-
+Welcome to my interactive web portfolio! This project showcases my skills in front-end web development using HTML, CSS, JavaScript, and a linter for code quality assurance. Through this portfolio, I aim to demonstrate my proficiency in creating visually appealing and functional websites.
 
 ## Description
 
-For this milestone of my portfolio website, I implement a client-side validation of the data in the contact form before submission.
+For this milestone of my portfolio website, I will implement a client-side validation of the data in the contact form before submission.
+
+
+## Learning objectives
+
+- Process user input according to business rules.
+- Use client-side validation to catch and throw errors in the UI.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
+### Tech Stack <a name="tech-stack"></a>
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">css</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">FlexBox</a></li>
+    <li><a href="https://mozilla.github.io/addons-linter/">Linters</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>HTML</summary>
-  <ul>
-    <li><a href="#">HTML</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>CSS</summary>
-  <ul>
-    <li><a href="#">CSS</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>JavaScript</summary>
-  <ul>
-    <li><a href="#">JS</a></li>
-  </ul>
-</details>
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
 
+### Key Features <a name="key-features"></a>
+- **HTML.**
+- **CSS.**
+- **Linters.**
+- **Flexbox.**
+- **CSS Grid**
+- **Transitions and Animations**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name ="live-demo"></a>
 
-> [Live Demo link](https://jansuet.github.io/Portfolio/)
-
+- [Live Demo link](https://jansuet.github.io/Portfolio/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -87,31 +77,64 @@ For this milestone of my portfolio website, I implement a client-side validation
 ### Prerequisites
 
 In order to run this project you need:
+- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
 ### Setup
 
-Clone this repository to your desired folder:
-
+Clone this repository to your desired folder or download the Zip folder:
 ```sh
-  cd my-folder
-  git clone https://github.com/JansueT/Hello-microverse-project.git
+    "git clone https://github.com/JansueT/Portfolio.git"
 ```
-
+- Navigate to the location of the folder in your machine:
+```sh
+    cd ./desired_folder/
+```
 ### Install
 
-No installation needed
+Install all dependencies:
+```sh
+    "npm install"
+```
+
 
 ### Usage
 
-- right click then open preview
+To run the project, follow these instructions:
+- You have to clone this repo to your local machine.
+- If you want to run it on your preferred browser, run:
+```sh
+     " Open the index.html in the project directory with your preferred browser"
+```
 
+### Run tests
+
+To run tests, run the following command:
+- HTML linter errors run:
+```
+npx hint .
+```
+- CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+- For unit testing, run:
+```
+npm test
+```
+
+### Deployment <a name="deployment"></a>
+
+You can deploy this project using: GitHub Pages,
+- I used GitHub Pages to deploy my website.
+- To learn about github page information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
+- or You can go through W3Schools, "[W3schools github pages](https://www.w3schools.com/git/git_remote_pages.asp?remote=github)".
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **JansueT**
 
@@ -124,17 +147,12 @@ No installation needed
 
 ## 👥 Collabrations <a name="collabrationns"></a>
 
-👤 **Yan Min Thwin**
+👤 **Abbas-Aljuaifari**
 
-- GitHub: [@anbehindY](https://github.com/anbehindY)
-- Twitter: [@yanminthwin](https://twitter.com/yanminthwin)
-- LinkedIn: [Yan Min Thwin](https://www.linkedin.com/in/yan-min-thwin-192862215)
+- GitHub: [@Abbas-Aljuaifari](https://github.com/Abbas-Aljuaifari)
+- LinkedIn: [Abbas(fares)Aljuaifari](https://www.linkedin.com/in/abbas-aljuaifari-17a018261/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-👤 **Aimable BANCUNGUYE**
-
-- GitHub: [@bancunguye66](https://github.com/bancunguye66)
-- Twitter: [@bancunguye66](https://twitter.com/bancunguye66)
-- LinkedIn: [Aimable BANCUNGUYE](https://linkedin.com/in/Aimable BANCUNGUYE)
 
 <!-- CONTRIBUTING -->
 
@@ -146,22 +164,29 @@ Feel free to check the [issues page](https://github.com/JansueT/Hello-microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Features -->
+
+## :telescope: Future Features <a name="future-features"></a>
+- [ ] **Make the site dynamic**
+- [ ] **Add DOM**
+- [ ] **Add CSS preprocessors**
+- [ ] **Add Bootstrap.**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
-
+Give a :star:️ if you like this project and how I managed to build it!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
+- Thanks to the Microverse team for the opportunity to make this project.
+- A huge appreciation to my coding partner(s), morning session team, and standup team for their motivational support.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -169,7 +194,5 @@ If you like this project...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
