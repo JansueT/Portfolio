@@ -13,7 +13,7 @@
 }
 
 .nav_items {
-  color: #344563;
+  color: #3a4a42;
   text-decoration: none;
 }
 
@@ -495,7 +495,6 @@ hr {
 .header_nav_desktop_version {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
   padding: 0;
   padding-top: 1em;
@@ -578,9 +577,8 @@ hr {
   .cansu_menu {
     display: flex;
     flex-direction: column;
-    height: 125vh;
-    margin-top: -250px;
-    padding-bottom: 100px;
+    justify-content: flex-start;
+    height: 100vh;
   }
 
   .cansu_menu > li {
@@ -591,11 +589,19 @@ hr {
     display: none;
   }
 
+  #menu li {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  #menu li:first-child {
+    display: flex;
+    width: 85vw;
+    justify-content: flex-end;
+  }
+
   .close_menu_icon {
-    position: fixed;
-    top: 34px;
-    right: 40px;
-    height: 28px;
     display: block;
   }
 }

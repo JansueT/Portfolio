@@ -1,15 +1,15 @@
-<!-- TABLE OF CONTENTS -->
+<a name="readme-top"></a>
 
-# 📗 Table of Contents
+# :green_book: Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
+- [:book: About the Project](#about-project)
+  - [:hammer_and_wrench: Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
+  - [:rocket: Live Demo](#live-demo)
+- [:computer: Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -28,6 +28,7 @@
 
 Welcome to my interactive web portfolio! This project showcases my skills in front-end web development using HTML, CSS, JavaScript, and a linter for code quality assurance. Through this portfolio, I aim to demonstrate my proficiency in creating visually appealing and functional websites.
 
+
 ## Description
 
 For this milestone of my portfolio website, I will implement a client-side validation of the data in the contact form before submission.
@@ -41,7 +42,9 @@ For this milestone of my portfolio website, I will implement a client-side valid
 
 ## 🛠 Built With <a name="built-with"></a>
 
+
 ### Tech Stack <a name="tech-stack"></a>
+
 <details>
   <summary>Client</summary>
   <ul>
@@ -54,8 +57,8 @@ For this milestone of my portfolio website, I will implement a client-side valid
 
 <!-- Features -->
 
-
 ### Key Features <a name="key-features"></a>
+
 - **HTML.**
 - **CSS.**
 - **Linters.**
@@ -70,9 +73,11 @@ For this milestone of my portfolio website, I will implement a client-side valid
 - [Live Demo link](https://jansuet.github.io/Portfolio/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## :computer: Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
 
 ### Prerequisites
 
@@ -91,13 +96,12 @@ Clone this repository to your desired folder or download the Zip folder:
 ```sh
     cd ./desired_folder/
 ```
-### Install
 
 Install all dependencies:
+
 ```sh
     "npm install"
 ```
-
 
 ### Usage
 
@@ -132,6 +136,7 @@ You can deploy this project using: GitHub Pages,
 - or You can go through W3Schools, "[W3schools github pages](https://www.w3schools.com/git/git_remote_pages.asp?remote=github)".
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -142,6 +147,7 @@ You can deploy this project using: GitHub Pages,
 - instagram: [@cansuetas](https://instagram.com/cansuetas)
 - twitter: [@cansu8tas](https://twitter.com/cansu8tas)
 - linkedIn: [@LinkedIn](https://www.linkedin.com/in/cansu-tas-467844251/)
+
 
 <!-- COLLABRATIONS-->
 
@@ -188,6 +194,7 @@ Give a :star:️ if you like this project and how I managed to build it!
 - Thanks to the Microverse team for the opportunity to make this project.
 - A huge appreciation to my coding partner(s), morning session team, and standup team for their motivational support.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 
