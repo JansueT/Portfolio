@@ -13,14 +13,13 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+  - [Deployment](#deployment)
+- [:bust_in_silhouette: Author](#author)
+- [:telescope: Future Features](#future-features)
+- [:handshake: Contributing](#contributing)
+- [:star:️ Show your support](#support)
+- [:pray: Acknowledgements](#acknowledgements)
+- [:memo: License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -32,7 +31,6 @@ Welcome to my interactive web portfolio! This project showcases my skills in fro
 ## Description
 
 For this final milestone of my portfolio website, I will save the form data in the `local storage` of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
-
 
 ## Learning objectives
 
@@ -58,6 +56,23 @@ For this final milestone of my portfolio website, I will save the form data in t
 
 ### Key Features <a name="key-features"></a>
 
+=======
+
+### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">FlexBox</a></li>
+    <li><a href="https://mozilla.github.io/addons-linter/">Linters</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
 - **HTML.**
 - **CSS.**
 - **Linters.**
@@ -66,6 +81,7 @@ For this final milestone of my portfolio website, I will save the form data in t
 - **Transitions and Animations**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name ="live-demo"></a>
 
@@ -148,6 +164,7 @@ You can deploy this project using: GitHub Pages,
 - linkedIn: [@LinkedIn](https://www.linkedin.com/in/cansu-tas-467844251/)
 
 
+
 <!-- COLLABRATIONS-->
 
 ## 👥 Collabrations <a name="collabrationns"></a>
@@ -169,9 +186,11 @@ Feel free to check the [issues page](https://github.com/JansueT/Hello-microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- Features -->
 
 ## :telescope: Future Features <a name="future-features"></a>
+
 - [ ] **Make the site dynamic**
 - [ ] **Add DOM**
 - [ ] **Add CSS preprocessors**
@@ -184,6 +203,7 @@ Feel free to check the [issues page](https://github.com/JansueT/Hello-microverse
 
 Give a :star:️ if you like this project and how I managed to build it!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- ACKNOWLEDGEMENTS -->
