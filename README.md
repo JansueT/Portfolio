@@ -24,18 +24,17 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio<a name="Portfolio - validate contact form"></a>
+# 📖 Portfolio<a name="Portfolio - data preserve"></a>
 
 Welcome to my interactive web portfolio! This project showcases my skills in front-end web development using HTML, CSS, JavaScript, and a linter for code quality assurance. Through this portfolio, I aim to demonstrate my proficiency in creating visually appealing and functional websites.
 
 ## Description
 
-For this milestone of my portfolio website, I will implement a client-side validation of the data in the contact form before submission.
+For this final milestone of my portfolio website, I will save the form data in the `local storage` of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
 ## Learning objectives
 
-- Process user input according to business rules.
-- Use client-side validation to catch and throw errors in the UI.
+- Use local storage to save user input.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,7 +45,7 @@ For this milestone of my portfolio website, I will implement a client-side valid
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/js">JS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JS">CSS</a></li>
     <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">FlexBox</a></li>
     <li><a href="https://mozilla.github.io/addons-linter/">Linters</a></li>
   </ul>
@@ -64,6 +63,8 @@ For this milestone of my portfolio website, I will implement a client-side valid
 - **CSS Grid**
 - **Transitions and Animations**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name ="live-demo"></a>
 
