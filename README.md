@@ -46,7 +46,7 @@ For this milestone of my portfolio website, I will implement a client-side valid
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/js">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/js">JS</a></li>
     <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">FlexBox</a></li>
     <li><a href="https://mozilla.github.io/addons-linter/">Linters</a></li>
   </ul>
