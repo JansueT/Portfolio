@@ -13,13 +13,14 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [:bust_in_silhouette: Author](#author)
-- [:telescope: Future Features](#future-features)
-- [:handshake: Contributing](#contributing)
-- [:star:️ Show your support](#support)
-- [:pray: Acknowledgements](#acknowledgements)
-- [:memo: License](#license)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -36,24 +37,6 @@ For this final milestone of my portfolio website, I will save the form data in t
 - Use local storage to save user input.
 
 ## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">FlexBox</a></li>
-    <li><a href="https://mozilla.github.io/addons-linter/">Linters</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-=======
 
 ### Tech Stack <a name="tech-stack"></a>
 
