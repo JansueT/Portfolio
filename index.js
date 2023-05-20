@@ -1,143 +1,143 @@
-const menuIconElement = document.getElementById("menu_icon");
-const menuElement = document.getElementById("menu");
-const closeMenuElement = document.getElementById("close_menu_icon");
-const links = document.getElementsByClassName("nav_items");
-const logo = document.querySelector(".header_logo");
+const menuIconElement = document.getElementById('menu_icon');
+const menuElement = document.getElementById('menu');
+const closeMenuElement = document.getElementById('close_menu_icon');
+const links = document.getElementsByClassName('nav_items');
+const logo = document.querySelector('.header_logo');
 
-menuIconElement.addEventListener("click", () => {
-  menuIconElement.classList.add("hide_menu");
-  menuElement.classList.add("cansu_menu");
-  document.body.style.overflowY = "hidden";
-  closeMenuElement.classList.remove("hide_menu");
-  logo.classList.add("hide_menu");
+menuIconElement.addEventListener('click', () => {
+  menuIconElement.classList.add('hide_menu');
+  menuElement.classList.add('cansu_menu');
+  document.body.style.overflowY = 'hidden';
+  closeMenuElement.classList.remove('hide_menu');
+  logo.classList.add('hide_menu');
 });
 
-closeMenuElement.addEventListener("click", () => {
-  menuIconElement.classList.remove("hide_menu");
-  document.body.style.overflowY = "scroll";
-  closeMenuElement.classList.add("hide_menu");
-  menuElement.classList.remove("cansu_menu");
-  logo.classList.remove("hide_menu");
+closeMenuElement.addEventListener('click', () => {
+  menuIconElement.classList.remove('hide_menu');
+  document.body.style.overflowY = 'scroll';
+  closeMenuElement.classList.add('hide_menu');
+  menuElement.classList.remove('cansu_menu');
+  logo.classList.remove('hide_menu');
 });
 
 for (let i = 0; i < links.length; i += 1) {
-  links[i].addEventListener("click", () => {
-    document.body.style.overflowY = "scroll";
-    menuIconElement.classList.remove("hide_menu");
-    menuElement.classList.remove("cansu_menu");
-    closeMenuElement.classList.add("hide_menu");
-    logo.classList.remove("hide_menu");
+  links[i].addEventListener('click', () => {
+    document.body.style.overflowY = 'scroll';
+    menuIconElement.classList.remove('hide_menu');
+    menuElement.classList.remove('cansu_menu');
+    closeMenuElement.classList.add('hide_menu');
+    logo.classList.remove('hide_menu');
   });
 }
 
 const projects = [
   {
     id: 1,
-    image: "#",
-    title: "Multi-Post Stories Gain+Glory",
+    image: '#',
+    title: 'Multi-Post Stories Gain+Glory',
     explantion: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
     and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
     when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
     mechanizations: {
-      mech0: "Rubi on rails",
-      mech1: "css",
-      mech2: "JavaScript",
-      mech3: "html",
+      mech0: 'Rubi on rails',
+      mech1: 'css',
+      mech2: 'JavaScript',
+      mech3: 'html',
     },
-    linkL: "#",
-    linkS: "https://github.com/JansueT",
+    linkL: '#',
+    linkS: 'https://github.com/JansueT',
   },
   {
     id: 2,
-    image: "#",
-    title: "Multi-Post Stories Gain+Glory",
+    image: '#',
+    title: 'Multi-Post Stories Gain+Glory',
     explantion: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
     and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
     when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
     mechanizations: {
-      mech0: "Rubi on rails",
-      mech1: "css",
-      mech2: "JavaScript",
-      mech3: "html",
+      mech0: 'Rubi on rails',
+      mech1: 'css',
+      mech2: 'JavaScript',
+      mech3: 'html',
     },
-    linkL: "#",
-    linkS: "https://github.com/JansueT",
+    linkL: '#',
+    linkS: 'https://github.com/JansueT',
   },
   {
     id: 3,
-    image: "#",
-    title: "Multi-Post Stories Gain+Glory",
+    image: '#',
+    title: 'Multi-Post Stories Gain+Glory',
     explantion: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
     and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
     when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
     mechanizations: {
-      mech0: "Rubi on rails",
-      mech1: "css",
-      mech2: "JavaScript",
-      mech3: "html",
+      mech0: 'Rubi on rails',
+      mech1: 'css',
+      mech2: 'JavaScript',
+      mech3: 'html',
     },
-    linkL: "#",
-    linkS: "https://github.com/JansueT",
+    linkL: '#',
+    linkS: 'https://github.com/JansueT',
   },
   {
     id: 4,
-    image: "#",
-    title: "Multi-Post Stories Gain+Glory",
+    image: '#',
+    title: 'Multi-Post Stories Gain+Glory',
     explantion: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
     and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
     when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
     mechanizations: {
-      mech0: "Rubi on rails",
-      mech1: "css",
-      mech2: "JavaScript",
-      mech3: "html",
+      mech0: 'Rubi on rails',
+      mech1: 'css',
+      mech2: 'JavaScript',
+      mech3: 'html',
     },
-    linkL: "#",
-    linkS: "https://github.com/JansueT",
+    linkL: '#',
+    linkS: 'https://github.com/JansueT',
   },
   {
     id: 5,
-    image: "#",
-    title: "Multi-Post Stories Gain+Glory",
+    image: '#',
+    title: 'Multi-Post Stories Gain+Glory',
     explantion: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
     and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
     when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
     mechanizations: {
-      mech0: "Rubi on rails",
-      mech1: "css",
-      mech2: "JavaScript",
-      mech3: "html",
+      mech0: 'Rubi on rails',
+      mech1: 'css',
+      mech2: 'JavaScript',
+      mech3: 'html',
     },
-    linkL: "#",
-    linkS: "https://github.com/JansueT",
+    linkL: '#',
+    linkS: 'https://github.com/JansueT',
   },
   {
     id: 6,
-    image: "Snapshoot Portfolio.png",
-    title: "Multi-Post Stories Gain+Glory",
+    image: 'Snapshoot Portfolio.png',
+    title: 'Multi-Post Stories Gain+Glory',
     explantion: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
     and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
     when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
     mechanizations: {
-      mech0: "Rubi on rails",
-      mech1: "css",
-      mech2: "JavaScript",
-      mech3: "html",
+      mech0: 'Rubi on rails',
+      mech1: 'css',
+      mech2: 'JavaScript',
+      mech3: 'html',
     },
-    linkL: "#",
-    linkS: "https://github.com/JansueT",
+    linkL: '#',
+    linkS: 'https://github.com/JansueT',
   },
 ];
 
@@ -175,23 +175,23 @@ const cards = () => {
                  See Project
                 </button>
               </div>  
-            </div>`
+            </div>`,
   );
   return card;
 };
-window.addEventListener("load", () => {
-  document.getElementById("cards_container").innerHTML = cards().join("");
+window.addEventListener('load', () => {
+  document.getElementById('cards_container').innerHTML = cards().join('');
 });
-const check1 = { title1: "Keeping track of hundreds of components" };
-const popupContainer = document.getElementById("popup_window_container");
+const check1 = { title1: 'Keeping track of hundreds of components' };
+const popupContainer = document.getElementById('popup_window_container');
 // const poWindow = document.getElementById('popup_window');
 // eslint-disable-next-line no-unused-vars
 const closeWindow = () => {
-  popupContainer.innerHTML = "";
-  popupContainer.style.padding = "0";
+  popupContainer.innerHTML = '';
+  popupContainer.style.padding = '0';
   document
-    .getElementsByClassName("popup_engin")[0]
-    .classList.remove("popup_engin");
+    .getElementsByClassName('popup_engin')[0]
+    .classList.remove('popup_engin');
 };
 
 // eslint-disable-next-line no-unused-vars
@@ -240,41 +240,40 @@ const popupDetails = (projectId) => {
     </div>
   </div>`;
   popupContainer.innerHTML = popupWindow;
-  popupContainer.style.padding = "25px 15px";
+  popupContainer.style.padding = '25px 15px';
 };
 
-const bodyElement = document.getElementById("body");
+const bodyElement = document.getElementById('body');
 
 setTimeout(() => {
-  if (document.getElementById("popup_window") === null) {
-    bodyElement.style.overflow = "auto";
+  if (document.getElementById('popup_window') === null) {
+    bodyElement.style.overflow = 'auto';
   } else {
-    bodyElement.style.overflow = "hidden";
+    bodyElement.style.overflow = 'hidden';
   }
 }, 1);
 
-const smallElement = document.getElementById("error");
-const emailElement = document.getElementById("email_id");
-const formElement = document.getElementById("form_id");
+const smallElement = document.getElementById('error');
+const emailElement = document.getElementById('email_id');
+const formElement = document.getElementById('form_id');
 
-formElement.addEventListener("submit", (event) => {
+formElement.addEventListener('submit', (event) => {
   if (emailElement.value.toLowerCase() !== emailElement.value) {
     event.preventDefault();
-    smallElement.innerText =
-      "please type all email charaters in lowercase. form was not submitted";
+    smallElement.innerText = 'please type all email charaters in lowercase. form was not submitted';
   }
 });
 
-const nameElement = document.getElementById("name");
-const textareaElement = document.getElementById("text");
+const nameElement = document.getElementById('name');
+const textareaElement = document.getElementById('text');
 
-formElement.addEventListener("input", () => {
+formElement.addEventListener('input', () => {
   const formData = {
     name: nameElement.value,
     email: emailElement.value,
     message: textareaElement.value,
   };
-  localStorage.setItem("contactForm", JSON.stringify(formData));
+  localStorage.setItem('contactForm', JSON.stringify(formData));
 });
 
 // function showData() {
