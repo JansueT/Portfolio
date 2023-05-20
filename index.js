@@ -184,7 +184,7 @@ window.addEventListener('load', () => {
 });
 const check1 = { title1: 'Keeping track of hundreds of components' };
 const popupContainer = document.getElementById('popup_window_container');
-// const poWindow = document.getElementById('popup_window');
+
 // eslint-disable-next-line no-unused-vars
 const closeWindow = () => {
   popupContainer.innerHTML = '';
