@@ -275,13 +275,3 @@ formElement.addEventListener('input', () => {
   };
   localStorage.setItem('contactForm', JSON.stringify(formData));
 });
-
-// function showData() {
-//   const userData = JSON.parse(localStorage.getItem('contactForm'));
-//   if (userData) {
-//     nameElement.value = userData.name;
-//     emailElement.value = userData.email;
-//     textareaElement.value = userData.message;
-//   }
-// }
-// showData();
