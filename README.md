@@ -24,17 +24,21 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio<a name="Portfolio - data preserve"></a>
+# 📖 Portfolio<a name="Portfolio - detail popup window"></a>
 
 Welcome to my interactive web portfolio! This project showcases my skills in front-end web development using HTML, CSS, JavaScript, and a linter for code quality assurance. Through this portfolio, I aim to demonstrate my proficiency in creating visually appealing and functional websites.
 
 ## Description
 
-For this final milestone of my portfolio website, I will save the form data in the `local storage` of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
+For this milestone of my portfolio website, I will implement a popup window that includes the project details in both desktop and mobile. In order to do that, I will need to store the information about my projects in a JavaScript object.
 
 ## Learning objectives
 
-- Use local storage to save user input.
+- Use basic JavaScript syntax.
+- Use JavaScript to manipulate DOM elements.
+- Use JavaScript events.
+- Understand how to parse a Figma design to create a UI.
+- Use objects to store and access data.
 
 ## 🛠 Built With <a name="built-with"></a>
 

@@ -202,18 +202,17 @@ h1 {
   display: grid;
   border: 1px solid gray;
   width: 370px;
-  height: 475px;
-  margin: 16px;
+  height: 565px;
 }
 
 .cards_container {
   display: grid;
   grid-template-columns: auto auto auto;
   place-content: center;
+  gap: 20px;
 }
 
 h2 {
-  text-align: center;
   color: #344534;
   margin-top: 5%;
 }
@@ -401,7 +400,7 @@ textarea:hover {
 }
 
 .container {
-  display: grid;
+  display: flex;
   flex-direction: column;
   border-radius: 10px;
   place-items: center;
@@ -410,16 +409,17 @@ textarea:hover {
 }
 
 .engin {
-  text-align: center;
-  font-size: 24px;
+  font-size: 33px;
   font-weight: 600;
-  line-height: 32px;
+  line-height: 44px;
   margin-top: 5%;
-  color: #3a4a42;
+  color: #3a4a42 !important;
+  font-family: inter, serif;
 }
 
 .eylem {
   float: left;
+  padding-bottom: 20px;
 }
 
 .eylemm {
@@ -469,6 +469,24 @@ textarea:hover {
   margin-bottom: 5%;
 }
 
+.btngreen1 {
+  margin-top: 1.5em;
+  margin-bottom: 5%;
+  border: none;
+  height: 50px;
+  align-self: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+  padding: 1em 1.5em;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #36b37e;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .btngreen:hover {
   border-radius: 4px;
   background-color: #36b37e;
@@ -513,6 +531,46 @@ hr {
   display: none;
 }
 
+#popup_window_container {
+  background-color: #c1c7d0;
+  box-sizing: content-box;
+  width: 100vw;
+}
+
+.popup_window {
+  display: inline-block;
+  width: 85%;
+  position: fixed;
+  top: 45px;
+  z-index: 1;
+}
+
+.popup_img {
+  width: 95%;
+  margin-block: 15px;
+}
+
+.popup_p {
+  color: #344563;
+  font-size: 18px;
+}
+
+.popup_buttoms {
+  display: flex;
+  gap: 30px;
+}
+
+.popup_x {
+  position: relative;
+  top: 115px;
+  left: 39%;
+}
+
+.popup_engin {
+  color: #172b4d;
+  text-align: left;
+}
+
 @media only screen and (max-width: 768px) {
   .header_nav {
     justify-content: space-between;
@@ -542,6 +600,7 @@ hr {
 
   .cards_container {
     grid-template-columns: auto;
+    gap: 20px;
   }
 
   .enginn {
@@ -603,6 +662,17 @@ hr {
 
   .close_menu_icon {
     display: block;
+  }
+
+  .popup_window {
+    width: 90%;
+    top: 30px;
+  }
+
+  .popup_x {
+    left: calc(45.5% - 25px);
+    position: relative;
+    top: 55px;
   }
 }
 
